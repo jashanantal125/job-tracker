@@ -351,9 +351,42 @@
     document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") remember(); });
     window.addEventListener("pagehide", remember);
 
+    setupLocalRefresh();
     load(true);
     setInterval(() => load(false), POLL_MS);
     setInterval(renderHeader, 60 * 1000); // keep "last checked x min ago" fresh
+  }
+
+  // Only when served by local.py: a button that runs the tracker right now.
+  async function setupLocalRefresh() {
+    const btn = $("refresh");
+    let status;
+    try {
+      const res = await fetch("api/status", { cache: "no-store" });
+      if (!res.ok) return;
+      status = await res.json();
+    } catch { return; }
+    btn.hidden = false;
+
+    const waitForRun = async () => {
+      btn.disabled = true;
+      btn.textContent = "Fetching…";
+      for (;;) {
+        await new Promise((r) => setTimeout(r, 2000));
+        try {
+          const s = await (await fetch("api/status", { cache: "no-store" })).json();
+          if (!s.running) break;
+        } catch { break; }
+      }
+      btn.disabled = false;
+      btn.textContent = "Refresh now";
+      await load(false);
+    };
+    btn.addEventListener("click", async () => {
+      try { await fetch("api/refresh", { method: "POST" }); } catch { return; }
+      waitForRun();
+    });
+    if (status.running) waitForRun();
   }
 
   init();

@@ -80,7 +80,23 @@ minutes) or change the cron in `scrape.yml` to hourly.
 - **A role is wrongly kept or dropped:** edit the regexes in `filters.py` and add the title
   to `tests/test_filters.py`.
 
-Run locally:
+## Run it on your own computer
+
+Needs Python 3.11+ (nothing to install). From the repo folder:
+
+```bash
+python3 local.py          # Windows: py local.py
+```
+
+This opens **http://localhost:8000** with the full site. It fetches internships right
+away, then every 30 minutes while it's running, and the site gets a **Refresh now**
+button to fetch on demand. Press Ctrl+C to stop. Options: `--port 8080`,
+`--every 15` (minutes), `--no-browser`.
+
+Local runs write `public/data/*.json` on your machine; run `git checkout public/data`
+before pulling so they don't clash with the data the scheduled job commits.
+
+Developer commands:
 
 ```bash
 cd scraper
@@ -88,5 +104,3 @@ python3 -m unittest discover -s tests -t .      # tests
 python3 -m tracker --dry-run                    # fetch everything, print matches, write nothing
 python3 -m tracker --dry-run --only intel       # just one source
 ```
-
-Preview the site: `cd public && python3 -m http.server`, then open http://localhost:8000
