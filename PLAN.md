@@ -1,5 +1,11 @@
 # MY Tech Internship Tracker — Plan
 
+> **Status (Oct 2026):** phases 1–5 and the first part of phase 6 (JobStreet, LinkedIn) are
+> built; see README.md for setup. Decisions: Malaysian MNCs included · internships of any
+> length plus other student programmes of 3–6 months · alerts only on the website · site on
+> Vercel, fetching every 30 minutes with GitHub Actions · repo stays private, so each run is
+> kept under one billed Actions minute (stdlib-only Python, no Playwright).
+
 Goal: every 30 minutes, check MNC career sites and job portals for **new tech internships in Malaysia**,
 keep a clean list with the **direct apply link**, and notify me. Applying is done manually.
 

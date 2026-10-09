@@ -1,0 +1,51 @@
+name: Fetch internships
+
+on:
+  schedule:
+    # Every 30 minutes (off the hour, when GitHub's scheduler is less busy).
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      # Stdlib-only Python: no setup-python / pip install, so a run fits in one billed minute.
+      - name: Fetch, filter and merge
+        id: run
+        working-directory: scraper
+        run: python3 -m tracker
+
+      - name: Commit updated data
+        if: steps.run.outputs.changed == 'true'
+        env:
+          NEW: ${{ steps.run.outputs.new }}
+          GIT_NAME: ${{ vars.DATA_COMMIT_NAME || 'github-actions[bot]' }}
+          GIT_EMAIL: ${{ vars.DATA_COMMIT_EMAIL || '41898282+github-actions[bot]@users.noreply.github.com' }}
+        run: |
+          git config user.name "$GIT_NAME"
+          git config user.email "$GIT_EMAIL"
+          git add public/data
+          git commit -m "data: ${NEW:-0} new internship(s)"
+          for i in 1 2 3; do
+            git pull --rebase --quiet && git push && exit 0
+            sleep $((i * 3))
+          done
+          exit 1
+
+      - name: Trigger Vercel deploy
+        if: steps.run.outputs.changed == 'true'
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" > /dev/null && echo "deploy triggered"; fi

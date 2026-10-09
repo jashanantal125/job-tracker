@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Tech internships at MNCs in Malaysia, refreshed every 30 minutes.">
+  <title>MY Tech Internships</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <div>
+        <h1>MY Tech Internships</h1>
+        <p class="sub" id="updated">Loading…</p>
+      </div>
+      <nav class="tabs" role="tablist">
+        <button role="tab" class="tab active" data-tab="jobs" aria-selected="true">Jobs</button>
+        <button role="tab" class="tab" data-tab="sources" aria-selected="false">Sources</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="alert" class="alert" hidden>
+      <span class="alert-dot" aria-hidden="true"></span>
+      <span id="alert-text"></span>
+      <button id="mark-seen" class="link-btn">Mark all as seen</button>
+    </div>
+
+    <section id="tab-jobs">
+      <div class="stats" id="stats"></div>
+
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search title, company, location…" aria-label="Search">
+        <div class="chips" id="categories" aria-label="Role categories"></div>
+        <div class="selects">
+          <select id="f-type" aria-label="Company type"><option value="">All company types</option></select>
+          <select id="f-city" aria-label="Location"><option value="">All locations</option></select>
+          <select id="f-status" aria-label="My status">
+            <option value="open">To review</option>
+            <option value="new">New only</option>
+            <option value="saved">Saved</option>
+            <option value="applied">Applied</option>
+            <option value="hidden">Hidden</option>
+            <option value="all">Everything</option>
+          </select>
+          <select id="f-sort" aria-label="Sort">
+            <option value="found">Newest found</option>
+            <option value="posted">Newest posted</option>
+            <option value="company">Company A–Z</option>
+          </select>
+          <label class="check"><input type="checkbox" id="f-review"> Needs review</label>
+          <label class="check"><input type="checkbox" id="f-closed"> Closed</label>
+        </div>
+      </div>
+
+      <p class="count" id="count"></p>
+      <ul class="jobs" id="jobs"></ul>
+    </section>
+
+    <section id="tab-sources" hidden>
+      <div class="panel">
+        <h2>Source health</h2>
+        <p class="muted" id="health-summary"></p>
+        <div class="table-wrap"><table class="sources" id="sources"></table></div>
+      </div>
+      <div class="panel">
+        <h2>Check manually</h2>
+        <p class="muted">These companies aren't fetched from their own career site yet. Jobs they post on JobStreet or LinkedIn still show up above, but it's worth a direct look now and then.</p>
+        <div id="watchlist" class="watchlist"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <button id="notify" class="link-btn">Enable browser alerts</button>
+    <span>·</span>
+    <button id="export" class="link-btn">Export my statuses</button>
+    <span>·</span>
+    <label class="link-btn">Import<input id="import" type="file" accept="application/json" hidden></label>
+    <p class="muted">Saved / applied / hidden marks are stored in this browser only.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" hidden></div>
+  <script src="app.js"></script>
+</body>
+</html>

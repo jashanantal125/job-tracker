@@ -1,0 +1,718 @@
+# MNCs tracked for Malaysian tech internships.
+#
+# Every company is matched against job-portal results (JobStreet, LinkedIn)
+# by `name` + `aliases`. Companies with an `[company.ats]` table are also
+# fetched directly from their own career site every run.
+#
+# type: tech | consulting | semicon | gbs | malaysian
+#
+# ATS kinds and their fields:
+#   workday          host, tenant, site (or sites = [...])
+#   greenhouse       board
+#   lever            site, region = "eu" (optional)
+#   smartrecruiters  id
+#   oracle           host, site
+#   successfactors   base_url
+#   eightfold        host, domain
+#   amazon           (no fields)
+#
+# The ATS details were filled in from public career-site URLs and have NOT all
+# been verified yet: check the "Sources" panel on the site after the first run
+# and fix or set `enabled = false` on any that fail.
+#
+# To add a company: copy a block, set name/type/aliases/careers, and (if you
+# know it) the ATS. Find the ATS by opening the company's job search page and
+# looking at the URL (myworkdayjobs.com, smartrecruiters.com, ...).
+
+# ============================================================== Tech
+
+[[company]]
+name = "Amazon / AWS"
+type = "tech"
+aliases = ["Amazon", "AWS", "Amazon Web Services", "Amazon Data Services"]
+careers = "https://www.amazon.jobs/en/search?base_query=intern&loc_query=Malaysia"
+[company.ats]
+kind = "amazon"
+
+[[company]]
+name = "Microsoft"
+type = "tech"
+aliases = ["Microsoft"]
+careers = "https://jobs.careers.microsoft.com/global/en/search?lc=Malaysia&et=Internship"
+[company.ats]
+kind = "eightfold"
+host = "apply.careers.microsoft.com"
+domain = "microsoft.com"
+
+[[company]]
+name = "Google"
+type = "tech"
+aliases = ["Google"]
+careers = "https://www.google.com/about/careers/applications/jobs/results/?location=Malaysia&employment_type=INTERN"
+
+[[company]]
+name = "Oracle"
+type = "tech"
+aliases = ["Oracle"]
+careers = "https://careers.oracle.com/jobs/#en/sites/jobsearch/requisitions?location=Malaysia"
+[company.ats]
+kind = "oracle"
+host = "eeho.fa.us2.oraclecloud.com"
+site = "CX_45001"
+
+[[company]]
+name = "IBM"
+type = "tech"
+aliases = ["IBM", "International Business Machines"]
+careers = "https://www.ibm.com/careers/search?field_keyword_05[0]=Malaysia&field_keyword_18[0]=Internship"
+
+[[company]]
+name = "SAP"
+type = "tech"
+aliases = ["SAP", "SAP Malaysia"]
+careers = "https://jobs.sap.com/search/?q=intern&locationsearch=Malaysia"
+[company.ats]
+kind = "successfactors"
+base_url = "https://jobs.sap.com"
+
+[[company]]
+name = "Salesforce"
+type = "tech"
+aliases = ["Salesforce", "Salesforce.com"]
+careers = "https://careers.salesforce.com/en/jobs/?search=intern&country=Malaysia"
+[company.ats]
+kind = "workday"
+host = "salesforce.wd12.myworkdayjobs.com"
+tenant = "salesforce"
+site = "External_Career_Site"
+
+[[company]]
+name = "ServiceNow"
+type = "tech"
+aliases = ["ServiceNow"]
+careers = "https://careers.servicenow.com/jobs/?search=intern&location=Malaysia"
+[company.ats]
+kind = "smartrecruiters"
+id = "ServiceNow"
+
+[[company]]
+name = "Dell Technologies"
+type = "tech"
+aliases = ["Dell", "Dell Global Business Center"]
+careers = "https://jobs.dell.com/en/search-jobs/intern/Malaysia"
+[company.ats]
+kind = "workday"
+host = "dell.wd1.myworkdayjobs.com"
+tenant = "dell"
+site = "External"
+
+[[company]]
+name = "HP"
+type = "tech"
+aliases = ["HP", "HP Inc", "Hewlett-Packard", "HP PPS Malaysia"]
+careers = "https://jobs.hp.com/"
+[company.ats]
+kind = "workday"
+host = "hp.wd5.myworkdayjobs.com"
+tenant = "hp"
+site = "ExternalCareerSite"
+
+[[company]]
+name = "Hewlett Packard Enterprise"
+type = "tech"
+aliases = ["HPE", "Hewlett Packard Enterprise"]
+careers = "https://careers.hpe.com/"
+[company.ats]
+kind = "workday"
+host = "hpe.wd5.myworkdayjobs.com"
+tenant = "hpe"
+site = "Jobsathpe"
+
+[[company]]
+name = "Adobe"
+type = "tech"
+aliases = ["Adobe"]
+careers = "https://careers.adobe.com/"
+[company.ats]
+kind = "workday"
+host = "adobe.wd5.myworkdayjobs.com"
+tenant = "adobe"
+site = "external_experienced"
+
+[[company]]
+name = "Huawei"
+type = "tech"
+aliases = ["Huawei"]
+careers = "https://career.huawei.com/reccampportal/portal5/index.html"
+
+[[company]]
+name = "Lenovo"
+type = "tech"
+aliases = ["Lenovo"]
+careers = "https://jobs.lenovo.com/en_US/careers/SearchJobs/?listFilterMode=1&jobRecordsPerPage=10&search=intern"
+
+[[company]]
+name = "Cisco"
+type = "tech"
+aliases = ["Cisco"]
+careers = "https://jobs.cisco.com/jobs/SearchJobs/intern?21178=%5B169482%5D&21178_format=6020"
+
+[[company]]
+name = "Grab"
+type = "tech"
+aliases = ["Grab", "GrabCar", "Grab Holdings", "GrabTaxi"]
+careers = "https://www.grab.careers/en/jobs/?search=intern&country=Malaysia"
+[company.ats]
+kind = "lever"
+site = "grab"
+
+[[company]]
+name = "Shopee / Sea"
+type = "tech"
+aliases = ["Shopee", "Sea Limited", "SeaMoney", "Garena", "Monee"]
+careers = "https://careers.shopee.com.my/jobs?region_id=6&type=2"
+
+[[company]]
+name = "TikTok / ByteDance"
+type = "tech"
+aliases = ["TikTok", "ByteDance"]
+careers = "https://lifeattiktok.com/search?keyword=intern&location=CT_175"
+
+[[company]]
+name = "Agoda"
+type = "tech"
+aliases = ["Agoda"]
+careers = "https://careersatagoda.com/jobs/"
+[company.ats]
+kind = "greenhouse"
+board = "agoda"
+
+[[company]]
+name = "Visa"
+type = "tech"
+aliases = ["Visa", "Visa Worldwide"]
+careers = "https://corporate.visa.com/en/jobs/?q=intern&cities=Kuala%20Lumpur"
+[company.ats]
+kind = "smartrecruiters"
+id = "Visa"
+
+[[company]]
+name = "Mastercard"
+type = "tech"
+aliases = ["Mastercard"]
+careers = "https://careers.mastercard.com/"
+[company.ats]
+kind = "workday"
+host = "mastercard.wd1.myworkdayjobs.com"
+tenant = "mastercard"
+site = "CorporateCareers"
+
+[[company]]
+name = "PayPal"
+type = "tech"
+aliases = ["PayPal"]
+careers = "https://careers.pypl.com/"
+[company.ats]
+kind = "workday"
+host = "paypal.wd1.myworkdayjobs.com"
+tenant = "paypal"
+site = "jobs"
+
+[[company]]
+name = "Experian"
+type = "tech"
+aliases = ["Experian"]
+careers = "https://jobs.experian.com/"
+[company.ats]
+kind = "smartrecruiters"
+id = "Experian"
+
+[[company]]
+name = "Thoughtworks"
+type = "tech"
+aliases = ["Thoughtworks"]
+careers = "https://www.thoughtworks.com/careers/jobs"
+[company.ats]
+kind = "greenhouse"
+board = "thoughtworks"
+
+[[company]]
+name = "Ericsson"
+type = "tech"
+aliases = ["Ericsson"]
+careers = "https://jobs.ericsson.com/careers?location=Malaysia&query=intern"
+
+[[company]]
+name = "Nokia"
+type = "tech"
+aliases = ["Nokia"]
+careers = "https://jobs.nokia.com/en/sites/CX_1/requisitions?location=Malaysia&keyword=intern"
+
+# ============================================================== Consulting & IT services
+
+[[company]]
+name = "Accenture"
+type = "consulting"
+aliases = ["Accenture", "Avanade"]
+careers = "https://www.accenture.com/my-en/careers/jobsearch?jk=intern&jl=Malaysia"
+
+[[company]]
+name = "Deloitte"
+type = "consulting"
+aliases = ["Deloitte"]
+careers = "https://www2.deloitte.com/my/en/careers/students.html"
+
+[[company]]
+name = "PwC"
+type = "consulting"
+aliases = ["PwC", "PricewaterhouseCoopers"]
+careers = "https://www.pwc.com/my/en/careers/student.html"
+[company.ats]
+kind = "workday"
+host = "pwc.wd3.myworkdayjobs.com"
+tenant = "pwc"
+sites = ["Global_Campus_Careers", "Global_Experienced_Careers"]
+
+[[company]]
+name = "EY"
+type = "consulting"
+aliases = ["Ernst & Young", "EY GDS", "EY Global Delivery Services", "Ernst and Young"]
+careers = "https://careers.ey.com/ey/search/?q=intern&locationsearch=Malaysia"
+[company.ats]
+kind = "successfactors"
+base_url = "https://careers.ey.com"
+
+[[company]]
+name = "KPMG"
+type = "consulting"
+aliases = ["KPMG"]
+careers = "https://kpmg.com/my/en/home/careers/students.html"
+
+[[company]]
+name = "Capgemini"
+type = "consulting"
+aliases = ["Capgemini"]
+careers = "https://www.capgemini.com/my-en/careers/join-capgemini/job-search/?search_term=intern"
+
+[[company]]
+name = "Infosys"
+type = "consulting"
+aliases = ["Infosys"]
+careers = "https://www.infosys.com/careers/"
+
+[[company]]
+name = "Tata Consultancy Services"
+type = "consulting"
+aliases = ["TCS", "Tata Consultancy"]
+careers = "https://www.tcs.com/careers/malaysia"
+
+[[company]]
+name = "Wipro"
+type = "consulting"
+aliases = ["Wipro"]
+careers = "https://careers.wipro.com/"
+
+[[company]]
+name = "HCLTech"
+type = "consulting"
+aliases = ["HCL", "HCLTech", "HCL Technologies"]
+careers = "https://www.hcltech.com/careers"
+
+[[company]]
+name = "NTT DATA"
+type = "consulting"
+aliases = ["NTT Data", "NTT", "NTT Malaysia"]
+careers = "https://www.nttdata.com/global/en/careers"
+
+[[company]]
+name = "Fujitsu"
+type = "consulting"
+aliases = ["Fujitsu"]
+careers = "https://www.fujitsu.com/my/about/careers/"
+
+[[company]]
+name = "Kyndryl"
+type = "consulting"
+aliases = ["Kyndryl"]
+careers = "https://careers.kyndryl.com/"
+[company.ats]
+kind = "workday"
+host = "kyndryl.wd5.myworkdayjobs.com"
+tenant = "kyndryl"
+site = "KyndrylProfessionalCareers"
+
+[[company]]
+name = "DXC Technology"
+type = "consulting"
+aliases = ["DXC", "DXC Technology"]
+careers = "https://careers.dxc.com/"
+[company.ats]
+kind = "workday"
+host = "dxctechnology.wd1.myworkdayjobs.com"
+tenant = "dxctechnology"
+site = "DXCJobs"
+
+[[company]]
+name = "Cognizant"
+type = "consulting"
+aliases = ["Cognizant"]
+careers = "https://careers.cognizant.com/global-en/jobs/?keyword=intern&location=Malaysia"
+
+# ============================================================== Semiconductor & hardware (Penang / Kulim / KL)
+
+[[company]]
+name = "Intel"
+type = "semicon"
+aliases = ["Intel", "Intel Microelectronics", "Intel Technology"]
+careers = "https://jobs.intel.com/"
+[company.ats]
+kind = "workday"
+host = "intel.wd1.myworkdayjobs.com"
+tenant = "intel"
+site = "External"
+
+[[company]]
+name = "AMD"
+type = "semicon"
+aliases = ["AMD", "Advanced Micro Devices"]
+careers = "https://careers.amd.com/careers-home/jobs?location=Malaysia"
+[company.ats]
+kind = "workday"
+host = "amd.wd1.myworkdayjobs.com"
+tenant = "amd"
+site = "External"
+
+[[company]]
+name = "Micron"
+type = "semicon"
+aliases = ["Micron", "Micron Memory Malaysia"]
+careers = "https://careers.micron.com/"
+[company.ats]
+kind = "workday"
+host = "micron.wd1.myworkdayjobs.com"
+tenant = "micron"
+site = "External"
+
+[[company]]
+name = "NXP"
+type = "semicon"
+aliases = ["NXP", "NXP Semiconductors"]
+careers = "https://www.nxp.com/company/about-nxp/careers:CAREERS"
+[company.ats]
+kind = "workday"
+host = "nxp.wd3.myworkdayjobs.com"
+tenant = "nxp"
+site = "careers"
+
+[[company]]
+name = "Broadcom"
+type = "semicon"
+aliases = ["Broadcom", "VMware"]
+careers = "https://www.broadcom.com/company/careers"
+[company.ats]
+kind = "workday"
+host = "broadcom.wd1.myworkdayjobs.com"
+tenant = "broadcom"
+site = "External_Career"
+
+[[company]]
+name = "Infineon"
+type = "semicon"
+aliases = ["Infineon"]
+careers = "https://jobs.infineon.com/careers?location=Malaysia&query=intern"
+
+[[company]]
+name = "Keysight"
+type = "semicon"
+aliases = ["Keysight"]
+careers = "https://jobs.keysight.com/"
+[company.ats]
+kind = "workday"
+host = "keysight.wd5.myworkdayjobs.com"
+tenant = "keysight"
+site = "Keysight"
+
+[[company]]
+name = "Motorola Solutions"
+type = "semicon"
+aliases = ["Motorola Solutions", "Motorola"]
+careers = "https://www.motorolasolutions.com/en_us/about/careers.html"
+[company.ats]
+kind = "workday"
+host = "motorolasolutions.wd5.myworkdayjobs.com"
+tenant = "motorolasolutions"
+site = "Careers"
+
+[[company]]
+name = "Lam Research"
+type = "semicon"
+aliases = ["Lam Research"]
+careers = "https://careers.lamresearch.com/"
+[company.ats]
+kind = "workday"
+host = "lamresearch.wd1.myworkdayjobs.com"
+tenant = "lamresearch"
+site = "LAM"
+
+[[company]]
+name = "Texas Instruments"
+type = "semicon"
+aliases = ["Texas Instruments"]
+careers = "https://careers.ti.com/"
+[company.ats]
+kind = "oracle"
+host = "edbz.fa.us2.oraclecloud.com"
+site = "CX"
+
+[[company]]
+name = "Jabil"
+type = "semicon"
+aliases = ["Jabil"]
+careers = "https://careers.jabil.com/"
+[company.ats]
+kind = "workday"
+host = "jabil.wd5.myworkdayjobs.com"
+tenant = "jabil"
+site = "Jabil_Careers"
+
+[[company]]
+name = "Western Digital"
+type = "semicon"
+aliases = ["Western Digital", "Sandisk"]
+careers = "https://jobs.westerndigital.com/"
+
+[[company]]
+name = "Bosch"
+type = "semicon"
+aliases = ["Bosch", "Robert Bosch"]
+careers = "https://www.bosch.com.my/careers/"
+[company.ats]
+kind = "smartrecruiters"
+id = "BoschGroup"
+
+[[company]]
+name = "Agilent"
+type = "semicon"
+aliases = ["Agilent"]
+careers = "https://careers.agilent.com/"
+
+# ============================================================== Banks, energy & global business-service hubs
+
+[[company]]
+name = "Shell"
+type = "gbs"
+aliases = ["Shell", "Shell Business Operations", "Shell Malaysia"]
+careers = "https://www.shell.com.my/careers.html"
+[company.ats]
+kind = "workday"
+host = "shell.wd3.myworkdayjobs.com"
+tenant = "shell"
+site = "ShellCareers"
+
+[[company]]
+name = "bp Business Solutions"
+type = "gbs"
+aliases = ["British Petroleum", "BP Global Business Services"]  # not plain "bp": would also match BP Healthcare
+careers = "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html"
+
+[[company]]
+name = "HSBC"
+type = "gbs"
+aliases = ["HSBC", "HSBC Global Services", "HSBC Electronic Data Processing"]
+careers = "https://www.hsbc.com/careers/students-and-graduates"
+
+[[company]]
+name = "Standard Chartered"
+type = "gbs"
+aliases = ["Standard Chartered", "Scope International", "Standard Chartered Global Business Services"]
+careers = "https://www.sc.com/en/careers/students-graduates/"
+
+[[company]]
+name = "Citi"
+type = "gbs"
+aliases = ["Citi", "Citibank", "Citigroup", "Citi Solutions Centre"]
+careers = "https://jobs.citi.com/"
+[company.ats]
+kind = "workday"
+host = "citi.wd5.myworkdayjobs.com"
+tenant = "citi"
+site = "2"
+
+[[company]]
+name = "AIA"
+type = "gbs"
+aliases = ["AIA", "AIA Digital", "AIA Shared Services"]
+careers = "https://www.aia.com.my/en/about-aia/careers.html"
+[company.ats]
+kind = "workday"
+host = "aia.wd3.myworkdayjobs.com"
+tenant = "aia"
+site = "External"
+
+[[company]]
+name = "Prudential"
+type = "gbs"
+aliases = ["Prudential", "Prudential BSN"]
+careers = "https://www.prudential.com.my/en/careers/"
+
+[[company]]
+name = "Great Eastern"
+type = "gbs"
+aliases = ["Great Eastern"]
+careers = "https://www.greateasternlife.com/my/en/about-us/careers.html"
+
+[[company]]
+name = "DHL"
+type = "gbs"
+aliases = ["DHL", "DHL IT Services", "DHL Information Services"]
+careers = "https://careers.dhl.com/global/en/search-results?keywords=intern&location=Malaysia"
+
+[[company]]
+name = "Nestlé"
+type = "gbs"
+aliases = ["Nestle", "Nestlé", "Nestle Business Services"]
+careers = "https://www.nestle.com.my/jobs"
+
+[[company]]
+name = "Unilever"
+type = "gbs"
+aliases = ["Unilever"]
+careers = "https://careers.unilever.com/"
+[company.ats]
+kind = "workday"
+host = "unilever.wd3.myworkdayjobs.com"
+tenant = "unilever"
+site = "Unilever_Experienced_Professionals"
+
+[[company]]
+name = "Procter & Gamble"
+type = "gbs"
+aliases = ["P&G", "Procter & Gamble", "Procter and Gamble"]
+careers = "https://www.pgcareers.com/"
+
+[[company]]
+name = "Schneider Electric"
+type = "gbs"
+aliases = ["Schneider Electric"]
+careers = "https://www.se.com/my/en/about-us/careers/"
+
+[[company]]
+name = "Siemens"
+type = "gbs"
+aliases = ["Siemens", "Siemens Healthineers"]
+careers = "https://jobs.siemens.com/careers?location=Malaysia&query=intern"
+
+[[company]]
+name = "Maersk"
+type = "gbs"
+aliases = ["Maersk", "A.P. Moller - Maersk"]
+careers = "https://www.maersk.com/careers"
+
+[[company]]
+name = "Hitachi"
+type = "gbs"
+aliases = ["Hitachi", "Hitachi eBworx"]
+careers = "https://www.hitachi.com/careers/"
+
+# ============================================================== Malaysian MNCs
+
+[[company]]
+name = "Petronas"
+type = "malaysian"
+aliases = ["Petronas", "Petronas Digital", "Petroliam Nasional"]
+careers = "https://careers.petronas.com/"
+[company.ats]
+kind = "successfactors"
+base_url = "https://careers.petronas.com"
+
+[[company]]
+name = "Maybank"
+type = "malaysian"
+aliases = ["Maybank", "Malayan Banking", "Etiqa", "Maybank Investment Bank"]
+careers = "https://www.maybank.com/en/careers.page"
+
+[[company]]
+name = "CIMB"
+type = "malaysian"
+aliases = ["CIMB", "CIMB Bank", "CIMB Group"]
+careers = "https://www.cimb.com/en/careers.html"
+
+[[company]]
+name = "RHB"
+type = "malaysian"
+aliases = ["RHB", "RHB Bank"]
+careers = "https://www.rhbgroup.com/careers/index.html"
+
+[[company]]
+name = "Hong Leong"
+type = "malaysian"
+aliases = ["Hong Leong Bank", "Hong Leong Group", "Hong Leong Financial"]
+careers = "https://www.hlb.com.my/en/personal-banking/careers.html"
+
+[[company]]
+name = "Axiata"
+type = "malaysian"
+aliases = ["Axiata", "Boost Holdings", "ADA Asia"]
+careers = "https://axiata.com/careers/"
+
+[[company]]
+name = "CelcomDigi"
+type = "malaysian"
+aliases = ["CelcomDigi", "Celcom", "Digi Telecommunications"]
+careers = "https://www.celcomdigi.com/careers"
+
+[[company]]
+name = "Sime Darby"
+type = "malaysian"
+aliases = ["Sime Darby", "SD Guthrie"]
+careers = "https://www.simedarby.com/careers"
+
+[[company]]
+name = "Genting"
+type = "malaysian"
+aliases = ["Genting", "Resorts World Genting"]
+careers = "https://www.genting.com/careers/"
+
+[[company]]
+name = "YTL"
+type = "malaysian"
+aliases = ["YTL", "YTL Communications", "YTL Power"]
+careers = "https://www.ytl.com/careers.asp"
+
+[[company]]
+name = "IHH Healthcare"
+type = "malaysian"
+aliases = ["IHH Healthcare", "IHH"]
+careers = "https://www.ihhhealthcare.com/careers"
+
+[[company]]
+name = "Capital A / AirAsia"
+type = "malaysian"
+aliases = ["AirAsia", "Capital A", "AirAsia MOVE", "Teleport", "BigPay"]
+careers = "https://careers.airasia.com/"
+
+[[company]]
+name = "Gamuda"
+type = "malaysian"
+aliases = ["Gamuda"]
+careers = "https://gamuda.com.my/careers/"
+
+[[company]]
+name = "MISC"
+type = "malaysian"
+aliases = ["MISC Berhad", "MISC Group"]
+careers = "https://www.miscgroup.com/careers/"
+
+[[company]]
+name = "ViTrox"
+type = "malaysian"
+aliases = ["ViTrox"]
+careers = "https://www.vitrox.com/career.php"
+
+# ============================================================== Job portals
+
+[[portal]]
+kind = "jobstreet"
+
+[[portal]]
+kind = "linkedin"
