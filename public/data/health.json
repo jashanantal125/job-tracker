@@ -1,0 +1,1024 @@
+{
+ "checked_at": "2026-10-09T11:28+00:00",
+ "sources_ok": 33,
+ "sources_failed": 6,
+ "active_jobs": 43,
+ "new_this_run": 43,
+ "sources": [
+  {
+   "source": "eightfold:Microsoft",
+   "kind": "eightfold",
+   "company": "Microsoft",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 403 for https://apply.careers.microsoft.com/api/apply/v2/jobs?domain=microsoft.com&query=intern&location=Malaysia&start=0&num=10&sort_by=timestamp",
+   "seconds": null
+  },
+  {
+   "source": "lever:Grab",
+   "kind": "lever",
+   "company": "Grab",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 404 for https://api.lever.co/v0/postings/grab?mode=json",
+   "seconds": null
+  },
+  {
+   "source": "workday:AMD",
+   "kind": "workday",
+   "company": "AMD",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 422 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Dell Technologies",
+   "kind": "workday",
+   "company": "Dell Technologies",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Keysight",
+   "kind": "workday",
+   "company": "Keysight",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 422 for https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/Keysight/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Lam Research",
+   "kind": "workday",
+   "company": "Lam Research",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 422 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
+   "seconds": null
+  },
+  {
+   "source": "amazon:Amazon / AWS",
+   "kind": "amazon",
+   "company": "Amazon / AWS",
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 1.2,
+   "rejected": {}
+  },
+  {
+   "source": "greenhouse:Agoda",
+   "kind": "greenhouse",
+   "company": "Agoda",
+   "ok": true,
+   "fetched": 319,
+   "matched": 0,
+   "error": null,
+   "seconds": 0.8,
+   "rejected": {
+    "not malaysia": 307,
+    "not internship": 12
+   }
+  },
+  {
+   "source": "greenhouse:Thoughtworks",
+   "kind": "greenhouse",
+   "company": "Thoughtworks",
+   "ok": true,
+   "fetched": 36,
+   "matched": 0,
+   "error": null,
+   "seconds": 0.4,
+   "rejected": {
+    "not malaysia": 36
+   }
+  },
+  {
+   "source": "jobstreet",
+   "kind": "jobstreet",
+   "company": null,
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 1.2,
+   "rejected": {}
+  },
+  {
+   "source": "linkedin",
+   "kind": "linkedin",
+   "company": null,
+   "ok": true,
+   "fetched": 60,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.7,
+   "rejected": {
+    "not an MNC": 39,
+    "not internship": 21
+   }
+  },
+  {
+   "source": "oracle:Oracle",
+   "kind": "oracle",
+   "company": "Oracle",
+   "ok": true,
+   "fetched": 373,
+   "matched": 0,
+   "error": null,
+   "seconds": 19.8,
+   "rejected": {
+    "not malaysia": 372,
+    "not internship": 1
+   }
+  },
+  {
+   "source": "oracle:Texas Instruments",
+   "kind": "oracle",
+   "company": "Texas Instruments",
+   "ok": true,
+   "fetched": 309,
+   "matched": 2,
+   "error": null,
+   "seconds": 13.4,
+   "rejected": {
+    "not malaysia": 294,
+    "not internship": 11,
+    "excluded": 2
+   }
+  },
+  {
+   "source": "smartrecruiters:Bosch",
+   "kind": "smartrecruiters",
+   "company": "Bosch",
+   "ok": true,
+   "fetched": 145,
+   "matched": 7,
+   "error": null,
+   "seconds": 14.7,
+   "rejected": {
+    "excluded": 16,
+    "not internship": 115,
+    "no tech category": 7
+   }
+  },
+  {
+   "source": "smartrecruiters:Experian",
+   "kind": "smartrecruiters",
+   "company": "Experian",
+   "ok": true,
+   "fetched": 24,
+   "matched": 1,
+   "error": null,
+   "seconds": 1.6,
+   "rejected": {
+    "not internship": 23
+   }
+  },
+  {
+   "source": "smartrecruiters:ServiceNow",
+   "kind": "smartrecruiters",
+   "company": "ServiceNow",
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 0.7,
+   "rejected": {}
+  },
+  {
+   "source": "smartrecruiters:Visa",
+   "kind": "smartrecruiters",
+   "company": "Visa",
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 0.7,
+   "rejected": {}
+  },
+  {
+   "source": "successfactors:EY",
+   "kind": "successfactors",
+   "company": "EY",
+   "ok": true,
+   "fetched": 117,
+   "matched": 0,
+   "error": null,
+   "seconds": 8.1,
+   "rejected": {
+    "not internship": 116,
+    "not malaysia": 1
+   }
+  },
+  {
+   "source": "successfactors:Petronas",
+   "kind": "successfactors",
+   "company": "Petronas",
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 10.9,
+   "rejected": {}
+  },
+  {
+   "source": "successfactors:SAP",
+   "kind": "successfactors",
+   "company": "SAP",
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 1.9,
+   "rejected": {}
+  },
+  {
+   "source": "workday:AIA",
+   "kind": "workday",
+   "company": "AIA",
+   "ok": true,
+   "fetched": 205,
+   "matched": 6,
+   "error": null,
+   "seconds": 28.4,
+   "rejected": {
+    "not internship": 188,
+    "no tech category": 6,
+    "excluded": 5
+   }
+  },
+  {
+   "source": "workday:Adobe",
+   "kind": "workday",
+   "company": "Adobe",
+   "ok": true,
+   "fetched": 182,
+   "matched": 0,
+   "error": null,
+   "seconds": 21.7,
+   "rejected": {
+    "not malaysia": 182
+   }
+  },
+  {
+   "source": "workday:Broadcom",
+   "kind": "workday",
+   "company": "Broadcom",
+   "ok": true,
+   "fetched": 20,
+   "matched": 0,
+   "error": null,
+   "seconds": 0.7,
+   "rejected": {
+    "not internship": 20
+   }
+  },
+  {
+   "source": "workday:Citi",
+   "kind": "workday",
+   "company": "Citi",
+   "ok": true,
+   "fetched": 114,
+   "matched": 0,
+   "error": null,
+   "seconds": 7.5,
+   "rejected": {
+    "not internship": 114
+   }
+  },
+  {
+   "source": "workday:DXC Technology",
+   "kind": "workday",
+   "company": "DXC Technology",
+   "ok": true,
+   "fetched": 39,
+   "matched": 9,
+   "error": null,
+   "seconds": 5.1,
+   "rejected": {
+    "not internship": 30
+   }
+  },
+  {
+   "source": "workday:HP",
+   "kind": "workday",
+   "company": "HP",
+   "ok": true,
+   "fetched": 34,
+   "matched": 1,
+   "error": null,
+   "seconds": 2.8,
+   "rejected": {
+    "not internship": 33
+   }
+  },
+  {
+   "source": "workday:Hewlett Packard Enterprise",
+   "kind": "workday",
+   "company": "Hewlett Packard Enterprise",
+   "ok": true,
+   "fetched": 17,
+   "matched": 1,
+   "error": null,
+   "seconds": 5.3,
+   "rejected": {
+    "not internship": 16
+   }
+  },
+  {
+   "source": "workday:Intel",
+   "kind": "workday",
+   "company": "Intel",
+   "ok": true,
+   "fetched": 117,
+   "matched": 5,
+   "error": null,
+   "seconds": 12.2,
+   "rejected": {
+    "not internship": 110,
+    "excluded": 2
+   }
+  },
+  {
+   "source": "workday:Jabil",
+   "kind": "workday",
+   "company": "Jabil",
+   "ok": true,
+   "fetched": 179,
+   "matched": 7,
+   "error": null,
+   "seconds": 22.2,
+   "rejected": {
+    "not internship": 161,
+    "excluded": 8,
+    "no tech category": 3
+   }
+  },
+  {
+   "source": "workday:Kyndryl",
+   "kind": "workday",
+   "company": "Kyndryl",
+   "ok": true,
+   "fetched": 1,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.2,
+   "rejected": {
+    "not internship": 1
+   }
+  },
+  {
+   "source": "workday:Mastercard",
+   "kind": "workday",
+   "company": "Mastercard",
+   "ok": true,
+   "fetched": 17,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.5,
+   "rejected": {
+    "not internship": 17
+   }
+  },
+  {
+   "source": "workday:Micron",
+   "kind": "workday",
+   "company": "Micron",
+   "ok": true,
+   "fetched": 108,
+   "matched": 3,
+   "error": null,
+   "seconds": 7.1,
+   "rejected": {
+    "not internship": 98,
+    "excluded": 4,
+    "no tech category": 3
+   }
+  },
+  {
+   "source": "workday:Motorola Solutions",
+   "kind": "workday",
+   "company": "Motorola Solutions",
+   "ok": true,
+   "fetched": 93,
+   "matched": 2,
+   "error": null,
+   "seconds": 25.9,
+   "rejected": {
+    "not internship": 87,
+    "excluded": 2,
+    "no tech category": 2
+   }
+  },
+  {
+   "source": "workday:NXP",
+   "kind": "workday",
+   "company": "NXP",
+   "ok": true,
+   "fetched": 71,
+   "matched": 2,
+   "error": null,
+   "seconds": 9.4,
+   "rejected": {
+    "not internship": 65,
+    "excluded": 4
+   }
+  },
+  {
+   "source": "workday:PayPal",
+   "kind": "workday",
+   "company": "PayPal",
+   "ok": true,
+   "fetched": 191,
+   "matched": 0,
+   "error": null,
+   "seconds": 15.4,
+   "rejected": {
+    "not malaysia": 191
+   }
+  },
+  {
+   "source": "workday:PwC",
+   "kind": "workday",
+   "company": "PwC",
+   "ok": true,
+   "fetched": 165,
+   "matched": 3,
+   "error": null,
+   "seconds": 34.1,
+   "rejected": {
+    "not internship": 132,
+    "no tech category": 20,
+    "excluded": 10
+   }
+  },
+  {
+   "source": "workday:Salesforce",
+   "kind": "workday",
+   "company": "Salesforce",
+   "ok": true,
+   "fetched": 630,
+   "matched": 0,
+   "error": null,
+   "seconds": 35.5,
+   "rejected": {
+    "not malaysia": 630
+   }
+  },
+  {
+   "source": "workday:Shell",
+   "kind": "workday",
+   "company": "Shell",
+   "ok": true,
+   "fetched": 4,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.4,
+   "rejected": {
+    "not internship": 4
+   }
+  },
+  {
+   "source": "workday:Unilever",
+   "kind": "workday",
+   "company": "Unilever",
+   "ok": true,
+   "fetched": 1,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.6,
+   "rejected": {
+    "not internship": 1
+   }
+  }
+ ],
+ "companies": [
+  {
+   "company": "Accenture",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.accenture.com/my-en/careers/jobsearch?jk=intern&jl=Malaysia",
+   "tracked": false
+  },
+  {
+   "company": "Adobe",
+   "type": "Tech",
+   "careers": "https://careers.adobe.com/",
+   "tracked": true
+  },
+  {
+   "company": "Agilent",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://careers.agilent.com/",
+   "tracked": false
+  },
+  {
+   "company": "Agoda",
+   "type": "Tech",
+   "careers": "https://careersatagoda.com/jobs/",
+   "tracked": true
+  },
+  {
+   "company": "AIA",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.aia.com.my/en/about-aia/careers.html",
+   "tracked": true
+  },
+  {
+   "company": "Amazon / AWS",
+   "type": "Tech",
+   "careers": "https://www.amazon.jobs/en/search?base_query=intern&loc_query=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "AMD",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://careers.amd.com/careers-home/jobs?location=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "Axiata",
+   "type": "Malaysian MNC",
+   "careers": "https://axiata.com/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Bosch",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://www.bosch.com.my/careers/",
+   "tracked": true
+  },
+  {
+   "company": "bp Business Solutions",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.bp.com/en/global/corporate/careers/students-and-graduates.html",
+   "tracked": false
+  },
+  {
+   "company": "Broadcom",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://www.broadcom.com/company/careers",
+   "tracked": true
+  },
+  {
+   "company": "Capgemini",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.capgemini.com/my-en/careers/join-capgemini/job-search/?search_term=intern",
+   "tracked": false
+  },
+  {
+   "company": "Capital A / AirAsia",
+   "type": "Malaysian MNC",
+   "careers": "https://careers.airasia.com/",
+   "tracked": false
+  },
+  {
+   "company": "CelcomDigi",
+   "type": "Malaysian MNC",
+   "careers": "https://www.celcomdigi.com/careers",
+   "tracked": false
+  },
+  {
+   "company": "CIMB",
+   "type": "Malaysian MNC",
+   "careers": "https://www.cimb.com/en/careers.html",
+   "tracked": false
+  },
+  {
+   "company": "Cisco",
+   "type": "Tech",
+   "careers": "https://jobs.cisco.com/jobs/SearchJobs/intern?21178=%5B169482%5D&21178_format=6020",
+   "tracked": false
+  },
+  {
+   "company": "Citi",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://jobs.citi.com/",
+   "tracked": true
+  },
+  {
+   "company": "Cognizant",
+   "type": "Consulting & IT Services",
+   "careers": "https://careers.cognizant.com/global-en/jobs/?keyword=intern&location=Malaysia",
+   "tracked": false
+  },
+  {
+   "company": "Dell Technologies",
+   "type": "Tech",
+   "careers": "https://jobs.dell.com/en/search-jobs/intern/Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "Deloitte",
+   "type": "Consulting & IT Services",
+   "careers": "https://www2.deloitte.com/my/en/careers/students.html",
+   "tracked": false
+  },
+  {
+   "company": "DHL",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://careers.dhl.com/global/en/search-results?keywords=intern&location=Malaysia",
+   "tracked": false
+  },
+  {
+   "company": "DXC Technology",
+   "type": "Consulting & IT Services",
+   "careers": "https://careers.dxc.com/",
+   "tracked": true
+  },
+  {
+   "company": "Ericsson",
+   "type": "Tech",
+   "careers": "https://jobs.ericsson.com/careers?location=Malaysia&query=intern",
+   "tracked": false
+  },
+  {
+   "company": "Experian",
+   "type": "Tech",
+   "careers": "https://jobs.experian.com/",
+   "tracked": true
+  },
+  {
+   "company": "EY",
+   "type": "Consulting & IT Services",
+   "careers": "https://careers.ey.com/ey/search/?q=intern&locationsearch=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "Fujitsu",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.fujitsu.com/my/about/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Gamuda",
+   "type": "Malaysian MNC",
+   "careers": "https://gamuda.com.my/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Genting",
+   "type": "Malaysian MNC",
+   "careers": "https://www.genting.com/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Google",
+   "type": "Tech",
+   "careers": "https://www.google.com/about/careers/applications/jobs/results/?location=Malaysia&employment_type=INTERN",
+   "tracked": false
+  },
+  {
+   "company": "Grab",
+   "type": "Tech",
+   "careers": "https://www.grab.careers/en/jobs/?search=intern&country=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "Great Eastern",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.greateasternlife.com/my/en/about-us/careers.html",
+   "tracked": false
+  },
+  {
+   "company": "HCLTech",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.hcltech.com/careers",
+   "tracked": false
+  },
+  {
+   "company": "Hewlett Packard Enterprise",
+   "type": "Tech",
+   "careers": "https://careers.hpe.com/",
+   "tracked": true
+  },
+  {
+   "company": "Hitachi",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.hitachi.com/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Hong Leong",
+   "type": "Malaysian MNC",
+   "careers": "https://www.hlb.com.my/en/personal-banking/careers.html",
+   "tracked": false
+  },
+  {
+   "company": "HP",
+   "type": "Tech",
+   "careers": "https://jobs.hp.com/",
+   "tracked": true
+  },
+  {
+   "company": "HSBC",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.hsbc.com/careers/students-and-graduates",
+   "tracked": false
+  },
+  {
+   "company": "Huawei",
+   "type": "Tech",
+   "careers": "https://career.huawei.com/reccampportal/portal5/index.html",
+   "tracked": false
+  },
+  {
+   "company": "IBM",
+   "type": "Tech",
+   "careers": "https://www.ibm.com/careers/search?field_keyword_05[0]=Malaysia&field_keyword_18[0]=Internship",
+   "tracked": false
+  },
+  {
+   "company": "IHH Healthcare",
+   "type": "Malaysian MNC",
+   "careers": "https://www.ihhhealthcare.com/careers",
+   "tracked": false
+  },
+  {
+   "company": "Infineon",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://jobs.infineon.com/careers?location=Malaysia&query=intern",
+   "tracked": false
+  },
+  {
+   "company": "Infosys",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.infosys.com/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Intel",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://jobs.intel.com/",
+   "tracked": true
+  },
+  {
+   "company": "Jabil",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://careers.jabil.com/",
+   "tracked": true
+  },
+  {
+   "company": "Keysight",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://jobs.keysight.com/",
+   "tracked": true
+  },
+  {
+   "company": "KPMG",
+   "type": "Consulting & IT Services",
+   "careers": "https://kpmg.com/my/en/home/careers/students.html",
+   "tracked": false
+  },
+  {
+   "company": "Kyndryl",
+   "type": "Consulting & IT Services",
+   "careers": "https://careers.kyndryl.com/",
+   "tracked": true
+  },
+  {
+   "company": "Lam Research",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://careers.lamresearch.com/",
+   "tracked": true
+  },
+  {
+   "company": "Lenovo",
+   "type": "Tech",
+   "careers": "https://jobs.lenovo.com/en_US/careers/SearchJobs/?listFilterMode=1&jobRecordsPerPage=10&search=intern",
+   "tracked": false
+  },
+  {
+   "company": "Maersk",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.maersk.com/careers",
+   "tracked": false
+  },
+  {
+   "company": "Mastercard",
+   "type": "Tech",
+   "careers": "https://careers.mastercard.com/",
+   "tracked": true
+  },
+  {
+   "company": "Maybank",
+   "type": "Malaysian MNC",
+   "careers": "https://www.maybank.com/en/careers.page",
+   "tracked": false
+  },
+  {
+   "company": "Micron",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://careers.micron.com/",
+   "tracked": true
+  },
+  {
+   "company": "Microsoft",
+   "type": "Tech",
+   "careers": "https://jobs.careers.microsoft.com/global/en/search?lc=Malaysia&et=Internship",
+   "tracked": true
+  },
+  {
+   "company": "MISC",
+   "type": "Malaysian MNC",
+   "careers": "https://www.miscgroup.com/careers/",
+   "tracked": false
+  },
+  {
+   "company": "Motorola Solutions",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://www.motorolasolutions.com/en_us/about/careers.html",
+   "tracked": true
+  },
+  {
+   "company": "Nestlé",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.nestle.com.my/jobs",
+   "tracked": false
+  },
+  {
+   "company": "Nokia",
+   "type": "Tech",
+   "careers": "https://jobs.nokia.com/en/sites/CX_1/requisitions?location=Malaysia&keyword=intern",
+   "tracked": false
+  },
+  {
+   "company": "NTT DATA",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.nttdata.com/global/en/careers",
+   "tracked": false
+  },
+  {
+   "company": "NXP",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://www.nxp.com/company/about-nxp/careers:CAREERS",
+   "tracked": true
+  },
+  {
+   "company": "Oracle",
+   "type": "Tech",
+   "careers": "https://careers.oracle.com/jobs/#en/sites/jobsearch/requisitions?location=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "PayPal",
+   "type": "Tech",
+   "careers": "https://careers.pypl.com/",
+   "tracked": true
+  },
+  {
+   "company": "Petronas",
+   "type": "Malaysian MNC",
+   "careers": "https://careers.petronas.com/",
+   "tracked": true
+  },
+  {
+   "company": "Procter & Gamble",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.pgcareers.com/",
+   "tracked": false
+  },
+  {
+   "company": "Prudential",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.prudential.com.my/en/careers/",
+   "tracked": false
+  },
+  {
+   "company": "PwC",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.pwc.com/my/en/careers/student.html",
+   "tracked": true
+  },
+  {
+   "company": "RHB",
+   "type": "Malaysian MNC",
+   "careers": "https://www.rhbgroup.com/careers/index.html",
+   "tracked": false
+  },
+  {
+   "company": "Salesforce",
+   "type": "Tech",
+   "careers": "https://careers.salesforce.com/en/jobs/?search=intern&country=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "SAP",
+   "type": "Tech",
+   "careers": "https://jobs.sap.com/search/?q=intern&locationsearch=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "Schneider Electric",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.se.com/my/en/about-us/careers/",
+   "tracked": false
+  },
+  {
+   "company": "ServiceNow",
+   "type": "Tech",
+   "careers": "https://careers.servicenow.com/jobs/?search=intern&location=Malaysia",
+   "tracked": true
+  },
+  {
+   "company": "Shell",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.shell.com.my/careers.html",
+   "tracked": true
+  },
+  {
+   "company": "Shopee / Sea",
+   "type": "Tech",
+   "careers": "https://careers.shopee.com.my/jobs?region_id=6&type=2",
+   "tracked": false
+  },
+  {
+   "company": "Siemens",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://jobs.siemens.com/careers?location=Malaysia&query=intern",
+   "tracked": false
+  },
+  {
+   "company": "Sime Darby",
+   "type": "Malaysian MNC",
+   "careers": "https://www.simedarby.com/careers",
+   "tracked": false
+  },
+  {
+   "company": "Standard Chartered",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://www.sc.com/en/careers/students-graduates/",
+   "tracked": false
+  },
+  {
+   "company": "Tata Consultancy Services",
+   "type": "Consulting & IT Services",
+   "careers": "https://www.tcs.com/careers/malaysia",
+   "tracked": false
+  },
+  {
+   "company": "Texas Instruments",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://careers.ti.com/",
+   "tracked": true
+  },
+  {
+   "company": "Thoughtworks",
+   "type": "Tech",
+   "careers": "https://www.thoughtworks.com/careers/jobs",
+   "tracked": true
+  },
+  {
+   "company": "TikTok / ByteDance",
+   "type": "Tech",
+   "careers": "https://lifeattiktok.com/search?keyword=intern&location=CT_175",
+   "tracked": false
+  },
+  {
+   "company": "Unilever",
+   "type": "Banking, Energy & GBS Hubs",
+   "careers": "https://careers.unilever.com/",
+   "tracked": true
+  },
+  {
+   "company": "Visa",
+   "type": "Tech",
+   "careers": "https://corporate.visa.com/en/jobs/?q=intern&cities=Kuala%20Lumpur",
+   "tracked": true
+  },
+  {
+   "company": "ViTrox",
+   "type": "Malaysian MNC",
+   "careers": "https://www.vitrox.com/career.php",
+   "tracked": false
+  },
+  {
+   "company": "Western Digital",
+   "type": "Semiconductor & Hardware",
+   "careers": "https://jobs.westerndigital.com/",
+   "tracked": false
+  },
+  {
+   "company": "Wipro",
+   "type": "Consulting & IT Services",
+   "careers": "https://careers.wipro.com/",
+   "tracked": false
+  },
+  {
+   "company": "YTL",
+   "type": "Malaysian MNC",
+   "careers": "https://www.ytl.com/careers.asp",
+   "tracked": false
+  }
+ ]
+}
