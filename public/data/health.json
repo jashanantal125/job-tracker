@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-10T01:39+00:00",
+ "checked_at": "2026-10-10T08:23+00:00",
  "sources_ok": 33,
  "sources_failed": 6,
  "active_jobs": 43,
@@ -73,7 +73,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.5,
+   "seconds": 1.0,
    "rejected": {}
   },
   {
@@ -84,7 +84,7 @@
    "fetched": 319,
    "matched": 0,
    "error": null,
-   "seconds": 1.8,
+   "seconds": 0.9,
    "rejected": {
     "not malaysia": 307,
     "not internship": 12
@@ -111,7 +111,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.2,
+   "seconds": 1.0,
    "rejected": {}
   },
   {
@@ -122,10 +122,10 @@
    "fetched": 60,
    "matched": 0,
    "error": null,
-   "seconds": 2.8,
+   "seconds": 2.4,
    "rejected": {
-    "not an MNC": 35,
-    "not internship": 25
+    "not an MNC": 36,
+    "not internship": 24
    }
   },
   {
@@ -133,12 +133,12 @@
    "kind": "oracle",
    "company": "Oracle",
    "ok": true,
-   "fetched": 378,
+   "fetched": 377,
    "matched": 0,
    "error": null,
-   "seconds": 19.5,
+   "seconds": 18.5,
    "rejected": {
-    "not malaysia": 377,
+    "not malaysia": 376,
     "not internship": 1
    }
   },
@@ -147,13 +147,13 @@
    "kind": "oracle",
    "company": "Texas Instruments",
    "ok": true,
-   "fetched": 314,
+   "fetched": 313,
    "matched": 2,
    "error": null,
-   "seconds": 13.6,
+   "seconds": 12.7,
    "rejected": {
     "not malaysia": 299,
-    "not internship": 11,
+    "not internship": 10,
     "excluded": 2
    }
   },
@@ -165,7 +165,7 @@
    "fetched": 145,
    "matched": 7,
    "error": null,
-   "seconds": 15.3,
+   "seconds": 16.4,
    "rejected": {
     "excluded": 16,
     "not internship": 115,
@@ -180,7 +180,7 @@
    "fetched": 24,
    "matched": 1,
    "error": null,
-   "seconds": 1.6,
+   "seconds": 1.7,
    "rejected": {
     "not internship": 23
    }
@@ -215,7 +215,7 @@
    "fetched": 117,
    "matched": 0,
    "error": null,
-   "seconds": 8.0,
+   "seconds": 10.6,
    "rejected": {
     "not internship": 116,
     "not malaysia": 1
@@ -229,7 +229,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 11.2,
+   "seconds": 14.1,
    "rejected": {}
   },
   {
@@ -240,7 +240,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.8,
+   "seconds": 2.4,
    "rejected": {}
   },
   {
@@ -251,7 +251,7 @@
    "fetched": 205,
    "matched": 6,
    "error": null,
-   "seconds": 28.3,
+   "seconds": 33.9,
    "rejected": {
     "not internship": 188,
     "no tech category": 6,
@@ -263,12 +263,12 @@
    "kind": "workday",
    "company": "Adobe",
    "ok": true,
-   "fetched": 168,
+   "fetched": 167,
    "matched": 0,
    "error": null,
-   "seconds": 20.1,
+   "seconds": 15.9,
    "rejected": {
-    "not malaysia": 168
+    "not malaysia": 167
    }
   },
   {
@@ -279,7 +279,7 @@
    "fetched": 20,
    "matched": 0,
    "error": null,
-   "seconds": 0.9,
+   "seconds": 0.8,
    "rejected": {
     "not internship": 20
    }
@@ -292,7 +292,7 @@
    "fetched": 115,
    "matched": 0,
    "error": null,
-   "seconds": 7.1,
+   "seconds": 7.4,
    "rejected": {
     "not internship": 115
    }
@@ -305,7 +305,7 @@
    "fetched": 39,
    "matched": 9,
    "error": null,
-   "seconds": 5.8,
+   "seconds": 5.6,
    "rejected": {
     "not internship": 30
    }
@@ -318,7 +318,7 @@
    "fetched": 34,
    "matched": 1,
    "error": null,
-   "seconds": 2.9,
+   "seconds": 2.5,
    "rejected": {
     "not internship": 33
    }
@@ -331,7 +331,7 @@
    "fetched": 16,
    "matched": 1,
    "error": null,
-   "seconds": 3.1,
+   "seconds": 2.8,
    "rejected": {
     "not internship": 15
    }
@@ -344,7 +344,7 @@
    "fetched": 117,
    "matched": 5,
    "error": null,
-   "seconds": 10.7,
+   "seconds": 13.1,
    "rejected": {
     "not internship": 110,
     "excluded": 2
@@ -358,7 +358,7 @@
    "fetched": 179,
    "matched": 7,
    "error": null,
-   "seconds": 23.9,
+   "seconds": 19.9,
    "rejected": {
     "not internship": 161,
     "excluded": 8,
@@ -373,7 +373,7 @@
    "fetched": 1,
    "matched": 0,
    "error": null,
-   "seconds": 2.4,
+   "seconds": 2.3,
    "rejected": {
     "not internship": 1
    }
@@ -386,7 +386,7 @@
    "fetched": 17,
    "matched": 0,
    "error": null,
-   "seconds": 2.5,
+   "seconds": 2.4,
    "rejected": {
     "not internship": 17
    }
@@ -399,7 +399,7 @@
    "fetched": 108,
    "matched": 3,
    "error": null,
-   "seconds": 7.1,
+   "seconds": 8.0,
    "rejected": {
     "not internship": 98,
     "excluded": 4,
@@ -414,7 +414,7 @@
    "fetched": 93,
    "matched": 2,
    "error": null,
-   "seconds": 17.3,
+   "seconds": 13.1,
    "rejected": {
     "not internship": 87,
     "excluded": 2,
@@ -426,12 +426,12 @@
    "kind": "workday",
    "company": "NXP",
    "ok": true,
-   "fetched": 71,
+   "fetched": 77,
    "matched": 2,
    "error": null,
-   "seconds": 9.4,
+   "seconds": 9.9,
    "rejected": {
-    "not internship": 65,
+    "not internship": 71,
     "excluded": 4
    }
   },
@@ -440,12 +440,12 @@
    "kind": "workday",
    "company": "PayPal",
    "ok": true,
-   "fetched": 192,
+   "fetched": 193,
    "matched": 0,
    "error": null,
-   "seconds": 14.4,
+   "seconds": 14.3,
    "rejected": {
-    "not malaysia": 192
+    "not malaysia": 193
    }
   },
   {
@@ -456,7 +456,7 @@
    "fetched": 165,
    "matched": 3,
    "error": null,
-   "seconds": 32.8,
+   "seconds": 38.6,
    "rejected": {
     "not internship": 132,
     "no tech category": 20,
@@ -468,12 +468,12 @@
    "kind": "workday",
    "company": "Salesforce",
    "ok": true,
-   "fetched": 630,
+   "fetched": 629,
    "matched": 0,
    "error": null,
-   "seconds": 43.5,
+   "seconds": 29.3,
    "rejected": {
-    "not malaysia": 630
+    "not malaysia": 629
    }
   },
   {
@@ -484,7 +484,7 @@
    "fetched": 4,
    "matched": 0,
    "error": null,
-   "seconds": 2.5,
+   "seconds": 3.0,
    "rejected": {
     "not internship": 4
    }
@@ -497,7 +497,7 @@
    "fetched": 1,
    "matched": 0,
    "error": null,
-   "seconds": 2.1,
+   "seconds": 2.4,
    "rejected": {
     "not internship": 1
    }
