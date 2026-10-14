@@ -245,7 +245,7 @@
   {
    "active": true,
    "also_on": [],
-   "apply_url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---SAP-Functional_J2422199",
+   "apply_url": "https://jabil.wd5.myworkdayjobs.com/en-US/Jabil_Careers/job/Penang/Intern---SAP-Functional_J2422199",
    "category": "Enterprise Platforms",
    "city_group": "Penang / Kedah",
    "classified_by": "title",
@@ -258,8 +258,8 @@
    "last_seen": "2026-10-14",
    "location": "Penang",
    "missing_runs": 0,
-   "posted_at": "2025-07-17",
-   "snippet": "At Jabil we strive to make ANYTHING POSSIBLE and EVERYTHING BETTER. We are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, manufacturing, and supply chain solutions. With over 50 years of experience across industries and a vast…",
+   "posted_at": "2026-09-14",
+   "snippet": "",
    "source": "workday:Jabil",
    "source_kind": "company",
    "title": "Intern - SAP Functional"
@@ -861,7 +861,7 @@
   {
    "active": true,
    "also_on": [],
-   "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Penang-Malaysia/Software-Engineer-Intern_R64760-1",
+   "apply_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Software-Engineer-Intern_R64760-1",
    "category": "Software Engineering",
    "city_group": "Penang / Kedah",
    "classified_by": "title",
@@ -874,8 +874,8 @@
    "last_seen": "2026-10-14",
    "location": "Penang, Malaysia",
    "missing_runs": 0,
-   "posted_at": "2026-09-14",
-   "snippet": "",
+   "posted_at": "2026-05-07",
+   "snippet": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places.…",
    "source": "workday:Motorola Solutions",
    "source_kind": "company",
    "title": "Software Engineer Intern"
