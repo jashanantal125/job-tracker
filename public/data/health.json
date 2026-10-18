@@ -1,7 +1,7 @@
 {
- "checked_at": "2026-10-18T11:36+00:00",
- "sources_ok": 33,
- "sources_failed": 6,
+ "checked_at": "2026-10-18T14:46+00:00",
+ "sources_ok": 32,
+ "sources_failed": 7,
  "active_jobs": 42,
  "new_this_run": 0,
  "sources": [
@@ -23,6 +23,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "HttpError: HTTP 404 for https://api.lever.co/v0/postings/grab?mode=json",
+   "seconds": null
+  },
+  {
+   "source": "linkedin",
+   "kind": "linkedin",
+   "company": null,
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=data&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
    "seconds": null
   },
   {
@@ -73,7 +83,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.5,
+   "seconds": 1.3,
    "rejected": {}
   },
   {
@@ -81,12 +91,12 @@
    "kind": "greenhouse",
    "company": "Agoda",
    "ok": true,
-   "fetched": 324,
+   "fetched": 322,
    "matched": 0,
    "error": null,
-   "seconds": 0.8,
+   "seconds": 0.9,
    "rejected": {
-    "not malaysia": 310,
+    "not malaysia": 308,
     "not internship": 14
    }
   },
@@ -98,7 +108,7 @@
    "fetched": 43,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 0.4,
    "rejected": {
     "not malaysia": 43
    }
@@ -111,22 +121,8 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.1,
+   "seconds": 1.2,
    "rejected": {}
-  },
-  {
-   "source": "linkedin",
-   "kind": "linkedin",
-   "company": null,
-   "ok": true,
-   "fetched": 60,
-   "matched": 0,
-   "error": null,
-   "seconds": 2.6,
-   "rejected": {
-    "not an MNC": 41,
-    "not internship": 19
-   }
   },
   {
    "source": "oracle:Oracle",
@@ -136,7 +132,7 @@
    "fetched": 384,
    "matched": 1,
    "error": null,
-   "seconds": 18.0,
+   "seconds": 19.3,
    "rejected": {
     "not malaysia": 382,
     "not internship": 1
@@ -150,7 +146,7 @@
    "fetched": 319,
    "matched": 2,
    "error": null,
-   "seconds": 12.2,
+   "seconds": 14.7,
    "rejected": {
     "not malaysia": 302,
     "not internship": 11,
@@ -165,7 +161,7 @@
    "fetched": 154,
    "matched": 7,
    "error": null,
-   "seconds": 16.9,
+   "seconds": 15.8,
    "rejected": {
     "not internship": 123,
     "excluded": 17,
@@ -180,7 +176,7 @@
    "fetched": 27,
    "matched": 1,
    "error": null,
-   "seconds": 2.3,
+   "seconds": 2.1,
    "rejected": {
     "not internship": 26
    }
@@ -193,7 +189,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.8,
+   "seconds": 0.7,
    "rejected": {}
   },
   {
@@ -204,7 +200,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.8,
+   "seconds": 0.7,
    "rejected": {}
   },
   {
@@ -215,7 +211,7 @@
    "fetched": 120,
    "matched": 0,
    "error": null,
-   "seconds": 6.9,
+   "seconds": 6.5,
    "rejected": {
     "not internship": 119,
     "not malaysia": 1
@@ -229,7 +225,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 9.8,
+   "seconds": 11.3,
    "rejected": {}
   },
   {
@@ -240,7 +236,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 2.4,
+   "seconds": 1.9,
    "rejected": {}
   },
   {
@@ -251,7 +247,7 @@
    "fetched": 212,
    "matched": 5,
    "error": null,
-   "seconds": 34.3,
+   "seconds": 31.2,
    "rejected": {
     "not internship": 197,
     "no tech category": 7,
@@ -266,7 +262,7 @@
    "fetched": 147,
    "matched": 0,
    "error": null,
-   "seconds": 22.4,
+   "seconds": 15.9,
    "rejected": {
     "not malaysia": 147
    }
@@ -292,7 +288,7 @@
    "fetched": 116,
    "matched": 0,
    "error": null,
-   "seconds": 7.2,
+   "seconds": 7.7,
    "rejected": {
     "not internship": 116
    }
@@ -305,7 +301,7 @@
    "fetched": 40,
    "matched": 7,
    "error": null,
-   "seconds": 7.5,
+   "seconds": 4.9,
    "rejected": {
     "not internship": 33
    }
@@ -331,7 +327,7 @@
    "fetched": 15,
    "matched": 1,
    "error": null,
-   "seconds": 3.0,
+   "seconds": 3.2,
    "rejected": {
     "not internship": 14
    }
@@ -344,7 +340,7 @@
    "fetched": 130,
    "matched": 3,
    "error": null,
-   "seconds": 11.8,
+   "seconds": 13.4,
    "rejected": {
     "not internship": 125,
     "excluded": 2
@@ -358,7 +354,7 @@
    "fetched": 185,
    "matched": 8,
    "error": null,
-   "seconds": 20.6,
+   "seconds": 24.2,
    "rejected": {
     "excluded": 10,
     "not internship": 164,
@@ -373,7 +369,7 @@
    "fetched": 434,
    "matched": 0,
    "error": null,
-   "seconds": 31.2,
+   "seconds": 32.1,
    "rejected": {
     "not malaysia": 434
    }
@@ -386,7 +382,7 @@
    "fetched": 14,
    "matched": 0,
    "error": null,
-   "seconds": 2.8,
+   "seconds": 2.4,
    "rejected": {
     "not internship": 14
    }
@@ -399,7 +395,7 @@
    "fetched": 106,
    "matched": 3,
    "error": null,
-   "seconds": 7.9,
+   "seconds": 6.9,
    "rejected": {
     "not internship": 96,
     "excluded": 4,
@@ -414,7 +410,7 @@
    "fetched": 107,
    "matched": 3,
    "error": null,
-   "seconds": 13.4,
+   "seconds": 26.5,
    "rejected": {
     "not internship": 101,
     "excluded": 1,
@@ -429,7 +425,7 @@
    "fetched": 79,
    "matched": 2,
    "error": null,
-   "seconds": 10.4,
+   "seconds": 9.2,
    "rejected": {
     "not internship": 73,
     "excluded": 4
@@ -443,7 +439,7 @@
    "fetched": 207,
    "matched": 0,
    "error": null,
-   "seconds": 14.4,
+   "seconds": 12.9,
    "rejected": {
     "not malaysia": 207
    }
@@ -456,7 +452,7 @@
    "fetched": 168,
    "matched": 3,
    "error": null,
-   "seconds": 38.8,
+   "seconds": 34.7,
    "rejected": {
     "not internship": 138,
     "excluded": 9,
@@ -468,12 +464,12 @@
    "kind": "workday",
    "company": "Salesforce",
    "ok": true,
-   "fetched": 628,
+   "fetched": 629,
    "matched": 0,
    "error": null,
-   "seconds": 38.7,
+   "seconds": 40.1,
    "rejected": {
-    "not malaysia": 628
+    "not malaysia": 629
    }
   },
   {
@@ -484,7 +480,7 @@
    "fetched": 3,
    "matched": 0,
    "error": null,
-   "seconds": 3.0,
+   "seconds": 2.6,
    "rejected": {
     "not internship": 3
    }
@@ -497,7 +493,7 @@
    "fetched": 152,
    "matched": 0,
    "error": null,
-   "seconds": 29.5,
+   "seconds": 28.8,
    "rejected": {
     "not malaysia": 152
    }
