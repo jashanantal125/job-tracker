@@ -1,7 +1,7 @@
 {
- "checked_at": "2026-10-24T07:09+00:00",
- "sources_ok": 15,
- "sources_failed": 24,
+ "checked_at": "2026-10-24T12:11+00:00",
+ "sources_ok": 32,
+ "sources_failed": 7,
  "active_jobs": 43,
  "new_this_run": 0,
  "sources": [
@@ -26,13 +26,13 @@
    "seconds": null
   },
   {
-   "source": "workday:AIA",
-   "kind": "workday",
-   "company": "AIA",
+   "source": "linkedin",
+   "kind": "linkedin",
+   "company": null,
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=product&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
    "seconds": null
   },
   {
@@ -46,46 +46,6 @@
    "seconds": null
   },
   {
-   "source": "workday:Adobe",
-   "kind": "workday",
-   "company": "Adobe",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Broadcom",
-   "kind": "workday",
-   "company": "Broadcom",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Citi",
-   "kind": "workday",
-   "company": "Citi",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:DXC Technology",
-   "kind": "workday",
-   "company": "DXC Technology",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
    "source": "workday:Dell Technologies",
    "kind": "workday",
    "company": "Dell Technologies",
@@ -93,46 +53,6 @@
    "fetched": 0,
    "matched": 0,
    "error": "HttpError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:HP",
-   "kind": "workday",
-   "company": "HP",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Hewlett Packard Enterprise",
-   "kind": "workday",
-   "company": "Hewlett Packard Enterprise",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Intel",
-   "kind": "workday",
-   "company": "Intel",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Jabil",
-   "kind": "workday",
-   "company": "Jabil",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
    "seconds": null
   },
   {
@@ -146,16 +66,6 @@
    "seconds": null
   },
   {
-   "source": "workday:Kyndryl",
-   "kind": "workday",
-   "company": "Kyndryl",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
    "source": "workday:Lam Research",
    "kind": "workday",
    "company": "Lam Research",
@@ -166,86 +76,6 @@
    "seconds": null
   },
   {
-   "source": "workday:Mastercard",
-   "kind": "workday",
-   "company": "Mastercard",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Micron",
-   "kind": "workday",
-   "company": "Micron",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Motorola Solutions",
-   "kind": "workday",
-   "company": "Motorola Solutions",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:NXP",
-   "kind": "workday",
-   "company": "NXP",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:PayPal",
-   "kind": "workday",
-   "company": "PayPal",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:PwC",
-   "kind": "workday",
-   "company": "PwC",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Shell",
-   "kind": "workday",
-   "company": "Shell",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
-   "source": "workday:Unilever",
-   "kind": "workday",
-   "company": "Unilever",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-   "seconds": null
-  },
-  {
    "source": "amazon:Amazon / AWS",
    "kind": "amazon",
    "company": "Amazon / AWS",
@@ -253,7 +83,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.2,
+   "seconds": 1.1,
    "rejected": {}
   },
   {
@@ -264,7 +94,7 @@
    "fetched": 316,
    "matched": 0,
    "error": null,
-   "seconds": 0.6,
+   "seconds": 0.9,
    "rejected": {
     "not malaysia": 300,
     "not internship": 16
@@ -291,34 +121,20 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.2,
+   "seconds": 1.1,
    "rejected": {}
-  },
-  {
-   "source": "linkedin",
-   "kind": "linkedin",
-   "company": null,
-   "ok": true,
-   "fetched": 60,
-   "matched": 0,
-   "error": null,
-   "seconds": 2.7,
-   "rejected": {
-    "not an MNC": 46,
-    "not internship": 14
-   }
   },
   {
    "source": "oracle:Oracle",
    "kind": "oracle",
    "company": "Oracle",
    "ok": true,
-   "fetched": 359,
+   "fetched": 360,
    "matched": 1,
    "error": null,
-   "seconds": 19.4,
+   "seconds": 17.7,
    "rejected": {
-    "not malaysia": 356,
+    "not malaysia": 357,
     "not internship": 2
    }
   },
@@ -330,7 +146,7 @@
    "fetched": 331,
    "matched": 2,
    "error": null,
-   "seconds": 13.2,
+   "seconds": 13.6,
    "rejected": {
     "not malaysia": 312,
     "not internship": 13,
@@ -345,7 +161,7 @@
    "fetched": 155,
    "matched": 7,
    "error": null,
-   "seconds": 16.8,
+   "seconds": 15.6,
    "rejected": {
     "excluded": 18,
     "not internship": 122,
@@ -374,7 +190,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.6,
+   "seconds": 0.7,
    "rejected": {}
   },
   {
@@ -385,7 +201,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.6,
+   "seconds": 0.7,
    "rejected": {}
   },
   {
@@ -396,7 +212,7 @@
    "fetched": 120,
    "matched": 0,
    "error": null,
-   "seconds": 6.3,
+   "seconds": 5.4,
    "rejected": {
     "not internship": 118,
     "not malaysia": 2
@@ -410,7 +226,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 11.2,
+   "seconds": 10.7,
    "rejected": {}
   },
   {
@@ -421,8 +237,228 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.6,
+   "seconds": 1.7,
    "rejected": {}
+  },
+  {
+   "source": "workday:AIA",
+   "kind": "workday",
+   "company": "AIA",
+   "ok": true,
+   "fetched": 225,
+   "matched": 6,
+   "error": null,
+   "seconds": 29.3,
+   "rejected": {
+    "not internship": 206,
+    "excluded": 6,
+    "no tech category": 7
+   }
+  },
+  {
+   "source": "workday:Adobe",
+   "kind": "workday",
+   "company": "Adobe",
+   "ok": true,
+   "fetched": 149,
+   "matched": 0,
+   "error": null,
+   "seconds": 20.5,
+   "rejected": {
+    "not malaysia": 149
+   }
+  },
+  {
+   "source": "workday:Broadcom",
+   "kind": "workday",
+   "company": "Broadcom",
+   "ok": true,
+   "fetched": 4,
+   "matched": 0,
+   "error": null,
+   "seconds": 0.6,
+   "rejected": {
+    "not internship": 4
+   }
+  },
+  {
+   "source": "workday:Citi",
+   "kind": "workday",
+   "company": "Citi",
+   "ok": true,
+   "fetched": 112,
+   "matched": 0,
+   "error": null,
+   "seconds": 7.6,
+   "rejected": {
+    "not internship": 112
+   }
+  },
+  {
+   "source": "workday:DXC Technology",
+   "kind": "workday",
+   "company": "DXC Technology",
+   "ok": true,
+   "fetched": 43,
+   "matched": 11,
+   "error": null,
+   "seconds": 7.1,
+   "rejected": {
+    "not internship": 32
+   }
+  },
+  {
+   "source": "workday:HP",
+   "kind": "workday",
+   "company": "HP",
+   "ok": true,
+   "fetched": 35,
+   "matched": 1,
+   "error": null,
+   "seconds": 3.9,
+   "rejected": {
+    "not internship": 34
+   }
+  },
+  {
+   "source": "workday:Hewlett Packard Enterprise",
+   "kind": "workday",
+   "company": "Hewlett Packard Enterprise",
+   "ok": true,
+   "fetched": 13,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.5,
+   "rejected": {
+    "not internship": 13
+   }
+  },
+  {
+   "source": "workday:Intel",
+   "kind": "workday",
+   "company": "Intel",
+   "ok": true,
+   "fetched": 128,
+   "matched": 1,
+   "error": null,
+   "seconds": 9.5,
+   "rejected": {
+    "excluded": 5,
+    "not internship": 122
+   }
+  },
+  {
+   "source": "workday:Jabil",
+   "kind": "workday",
+   "company": "Jabil",
+   "ok": true,
+   "fetched": 187,
+   "matched": 8,
+   "error": null,
+   "seconds": 22.5,
+   "rejected": {
+    "not internship": 166,
+    "excluded": 10,
+    "no tech category": 3
+   }
+  },
+  {
+   "source": "workday:Kyndryl",
+   "kind": "workday",
+   "company": "Kyndryl",
+   "ok": true,
+   "fetched": 431,
+   "matched": 0,
+   "error": null,
+   "seconds": 31.2,
+   "rejected": {
+    "not malaysia": 431
+   }
+  },
+  {
+   "source": "workday:Mastercard",
+   "kind": "workday",
+   "company": "Mastercard",
+   "ok": true,
+   "fetched": 12,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.1,
+   "rejected": {
+    "not internship": 12
+   }
+  },
+  {
+   "source": "workday:Micron",
+   "kind": "workday",
+   "company": "Micron",
+   "ok": true,
+   "fetched": 102,
+   "matched": 3,
+   "error": null,
+   "seconds": 5.9,
+   "rejected": {
+    "not internship": 92,
+    "excluded": 4,
+    "no tech category": 3
+   }
+  },
+  {
+   "source": "workday:Motorola Solutions",
+   "kind": "workday",
+   "company": "Motorola Solutions",
+   "ok": true,
+   "fetched": 100,
+   "matched": 5,
+   "error": null,
+   "seconds": 16.5,
+   "rejected": {
+    "not internship": 92,
+    "excluded": 1,
+    "no tech category": 2
+   }
+  },
+  {
+   "source": "workday:NXP",
+   "kind": "workday",
+   "company": "NXP",
+   "ok": true,
+   "fetched": 66,
+   "matched": 2,
+   "error": null,
+   "seconds": 8.4,
+   "rejected": {
+    "not internship": 60,
+    "excluded": 4
+   }
+  },
+  {
+   "source": "workday:PayPal",
+   "kind": "workday",
+   "company": "PayPal",
+   "ok": true,
+   "fetched": 194,
+   "matched": 0,
+   "error": null,
+   "seconds": 13.0,
+   "rejected": {
+    "not malaysia": 194
+   }
+  },
+  {
+   "source": "workday:PwC",
+   "kind": "workday",
+   "company": "PwC",
+   "ok": true,
+   "fetched": 164,
+   "matched": 3,
+   "error": null,
+   "seconds": 29.5,
+   "rejected": {
+    "excluded": 9,
+    "not internship": 134,
+    "no tech category": 18
+   }
   },
   {
    "source": "workday:Salesforce",
@@ -432,9 +468,35 @@
    "fetched": 629,
    "matched": 0,
    "error": null,
-   "seconds": 38.5,
+   "seconds": 34.2,
    "rejected": {
     "not malaysia": 629
+   }
+  },
+  {
+   "source": "workday:Shell",
+   "kind": "workday",
+   "company": "Shell",
+   "ok": true,
+   "fetched": 3,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.2,
+   "rejected": {
+    "not internship": 3
+   }
+  },
+  {
+   "source": "workday:Unilever",
+   "kind": "workday",
+   "company": "Unilever",
+   "ok": true,
+   "fetched": 1,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.3,
+   "rejected": {
+    "not internship": 1
    }
   }
  ],
