@@ -1,13 +1,13 @@
 {
  "jobs": [
   {
-   "active": true,
+   "active": false,
    "also_on": [],
    "apply_url": "https://jobs.smartrecruiters.com/Experian/744000157657879-software-engineering-intern",
    "category": "Software Engineering",
    "city_group": "Klang Valley",
    "classified_by": "title",
-   "closed_at": null,
+   "closed_at": "2026-10-27",
    "company": "Experian",
    "company_type": "Tech",
    "duration": "6 months",
@@ -15,7 +15,7 @@
    "id": "aefbec2346b4",
    "last_seen": "2026-10-27",
    "location": "Cyberjaya, Selangor, MY",
-   "missing_runs": 1,
+   "missing_runs": 2,
    "posted_at": "2026-10-25",
    "snippet": "Intern Associate Experian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness, insurance, and many more. Experian invests…",
    "source": "smartrecruiters:Experian",
@@ -895,7 +895,7 @@
    "id": "5c4051b3e4d5",
    "last_seen": "2026-10-27",
    "location": "Penang, Malaysia - Grande",
-   "missing_runs": 0,
+   "missing_runs": 1,
    "posted_at": "2026-09-29",
    "snippet": "Our vision is to transform how the world uses information to enrich life for all . Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and…",
    "source": "workday:Micron",
