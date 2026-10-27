@@ -1,6 +1,28 @@
 {
  "jobs": [
   {
+   "active": true,
+   "also_on": [],
+   "apply_url": "https://jobs.smartrecruiters.com/Experian/744000157956149-software-engineering-intern",
+   "category": "Software Engineering",
+   "city_group": "Klang Valley",
+   "classified_by": "title",
+   "closed_at": null,
+   "company": "Experian",
+   "company_type": "Tech",
+   "duration": "6 months",
+   "first_seen": "2026-10-27T18:13+00:00",
+   "id": "e9b17ea993e1",
+   "last_seen": "2026-10-27",
+   "location": "Cyberjaya, Selangor, MY",
+   "missing_runs": 0,
+   "posted_at": "2026-10-27",
+   "snippet": "Intern Associate Experian is a global data and technology company, powering opportunities for people and businesses around the world. We operate across a range of markets, from financial services to healthcare, automotive, agribusiness, insurance, and many more. Experian invests…",
+   "source": "smartrecruiters:Experian",
+   "source_kind": "company",
+   "title": "Software Engineering Intern"
+  },
+  {
    "active": false,
    "also_on": [],
    "apply_url": "https://jobs.smartrecruiters.com/Experian/744000157657879-software-engineering-intern",
@@ -881,13 +903,13 @@
    "title": "SAP Intern (SAP Concur / SAP ABAP)"
   },
   {
-   "active": true,
+   "active": false,
    "also_on": [],
    "apply_url": "https://micron.wd1.myworkdayjobs.com/External/job/Penang-Malaysia---Grande/Intern-Automation-Engineer_JR111391",
    "category": "Data & AI",
    "city_group": "Penang / Kedah",
    "classified_by": "description",
-   "closed_at": null,
+   "closed_at": "2026-10-27",
    "company": "Micron",
    "company_type": "Semiconductor & Hardware",
    "duration": null,
@@ -895,7 +917,7 @@
    "id": "5c4051b3e4d5",
    "last_seen": "2026-10-27",
    "location": "Penang, Malaysia - Grande",
-   "missing_runs": 1,
+   "missing_runs": 2,
    "posted_at": "2026-09-29",
    "snippet": "Our vision is to transform how the world uses information to enrich life for all . Micron Technology is a world leader in innovating memory and storage solutions that accelerate the transformation of information into intelligence, inspiring the world to learn, communicate and…",
    "source": "workday:Micron",
