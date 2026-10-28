@@ -81,7 +81,7 @@
    "id": "7e5c8054e044",
    "last_seen": "2026-10-28",
    "location": "MYS - PETALING JAYA",
-   "missing_runs": 0,
+   "missing_runs": 1,
    "posted_at": "2026-10-20",
    "snippet": "Job Description: Job Description for IT Intern DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical IT…",
    "source": "workday:DXC Technology",
@@ -230,7 +230,7 @@
    "closed_at": null,
    "company": "Texas Instruments",
    "company_type": "Semiconductor & Hardware",
-   "duration": null,
+   "duration": "6 months",
    "first_seen": "2026-10-14T06:03+00:00",
    "id": "7844b8019a1e",
    "last_seen": "2026-10-28",
@@ -240,7 +240,7 @@
    "snippet": "",
    "source": "oracle:Texas Instruments",
    "source_kind": "company",
-   "title": "2027 Intake Information Technology Intern"
+   "title": "2027 Intake Information Technology Intern (6 Months Internship Duration)"
   },
   {
    "active": true,
