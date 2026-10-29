@@ -1,0 +1,16 @@
+name: One-off business internship dump
+
+on:
+  push:
+    branches: [claude/awesome-sagan-yd91nv]
+    paths: [".github/workflows/biz-dump.yml", "scraper/biz_dump.py"]
+
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dump
+        working-directory: scraper
+        run: python3 biz_dump.py
