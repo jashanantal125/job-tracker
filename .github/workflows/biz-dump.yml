@@ -8,9 +8,9 @@ on:
 jobs:
   dump:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - name: Dump
         working-directory: scraper
-        run: python3 biz_dump2.py
+        run: python3 biz_dump3.py
