@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-05T07:16+00:00",
+ "checked_at": "2026-11-05T15:44+00:00",
  "sources_ok": 33,
  "sources_failed": 6,
  "active_jobs": 33,
- "new_this_run": 1,
+ "new_this_run": 0,
  "sources": [
   {
    "source": "eightfold:Microsoft",
@@ -73,7 +73,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.6,
+   "seconds": 1.1,
    "rejected": {}
   },
   {
@@ -81,13 +81,13 @@
    "kind": "greenhouse",
    "company": "Agoda",
    "ok": true,
-   "fetched": 307,
+   "fetched": 313,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 0.7,
    "rejected": {
-    "not malaysia": 290,
-    "not internship": 17
+    "not malaysia": 293,
+    "not internship": 20
    }
   },
   {
@@ -95,12 +95,12 @@
    "kind": "greenhouse",
    "company": "Thoughtworks",
    "ok": true,
-   "fetched": 53,
+   "fetched": 49,
    "matched": 0,
    "error": null,
-   "seconds": 0.2,
+   "seconds": 0.3,
    "rejected": {
-    "not malaysia": 53
+    "not malaysia": 49
    }
   },
   {
@@ -111,7 +111,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.1,
+   "seconds": 1.5,
    "rejected": {}
   },
   {
@@ -122,10 +122,10 @@
    "fetched": 60,
    "matched": 0,
    "error": null,
-   "seconds": 2.8,
+   "seconds": 2.9,
    "rejected": {
-    "not an MNC": 40,
-    "not internship": 20
+    "not an MNC": 43,
+    "not internship": 17
    }
   },
   {
@@ -133,12 +133,12 @@
    "kind": "oracle",
    "company": "Oracle",
    "ok": true,
-   "fetched": 354,
+   "fetched": 358,
    "matched": 1,
    "error": null,
-   "seconds": 23.4,
+   "seconds": 22.9,
    "rejected": {
-    "not malaysia": 350,
+    "not malaysia": 354,
     "not internship": 3
    }
   },
@@ -147,12 +147,12 @@
    "kind": "oracle",
    "company": "Texas Instruments",
    "ok": true,
-   "fetched": 334,
+   "fetched": 332,
    "matched": 1,
    "error": null,
-   "seconds": 15.4,
+   "seconds": 14.2,
    "rejected": {
-    "not malaysia": 319,
+    "not malaysia": 317,
     "not internship": 11,
     "excluded": 3
    }
@@ -165,7 +165,7 @@
    "fetched": 155,
    "matched": 6,
    "error": null,
-   "seconds": 15.2,
+   "seconds": 22.0,
    "rejected": {
     "not internship": 125,
     "no tech category": 9,
@@ -180,7 +180,7 @@
    "fetched": 31,
    "matched": 2,
    "error": null,
-   "seconds": 2.7,
+   "seconds": 3.5,
    "rejected": {
     "not internship": 28,
     "excluded": 1
@@ -194,7 +194,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 0.6,
    "rejected": {}
   },
   {
@@ -205,7 +205,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 0.6,
    "rejected": {}
   },
   {
@@ -213,12 +213,12 @@
    "kind": "successfactors",
    "company": "EY",
    "ok": true,
-   "fetched": 117,
+   "fetched": 118,
    "matched": 0,
    "error": null,
-   "seconds": 6.1,
+   "seconds": 6.9,
    "rejected": {
-    "not internship": 115,
+    "not internship": 116,
     "not malaysia": 2
    }
   },
@@ -230,7 +230,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 14.1,
+   "seconds": 8.7,
    "rejected": {}
   },
   {
@@ -241,7 +241,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.4,
+   "seconds": 1.8,
    "rejected": {}
   },
   {
@@ -249,12 +249,12 @@
    "kind": "workday",
    "company": "AIA",
    "ok": true,
-   "fetched": 221,
+   "fetched": 220,
    "matched": 7,
    "error": null,
-   "seconds": 37.1,
+   "seconds": 40.6,
    "rejected": {
-    "not internship": 200,
+    "not internship": 199,
     "no tech category": 8,
     "excluded": 6
    }
@@ -264,12 +264,12 @@
    "kind": "workday",
    "company": "Adobe",
    "ok": true,
-   "fetched": 138,
+   "fetched": 140,
    "matched": 0,
    "error": null,
-   "seconds": 21.5,
+   "seconds": 43.6,
    "rejected": {
-    "not malaysia": 138
+    "not malaysia": 140
    }
   },
   {
@@ -280,7 +280,7 @@
    "fetched": 14,
    "matched": 0,
    "error": null,
-   "seconds": 0.8,
+   "seconds": 0.9,
    "rejected": {
     "not internship": 14
    }
@@ -293,7 +293,7 @@
    "fetched": 112,
    "matched": 0,
    "error": null,
-   "seconds": 8.0,
+   "seconds": 8.3,
    "rejected": {
     "not internship": 112
    }
@@ -306,7 +306,7 @@
    "fetched": 42,
    "matched": 8,
    "error": null,
-   "seconds": 7.1,
+   "seconds": 7.5,
    "rejected": {
     "not internship": 33,
     "no tech category": 1
@@ -320,7 +320,7 @@
    "fetched": 38,
    "matched": 1,
    "error": null,
-   "seconds": 3.0,
+   "seconds": 3.7,
    "rejected": {
     "not internship": 37
    }
@@ -333,7 +333,7 @@
    "fetched": 14,
    "matched": 0,
    "error": null,
-   "seconds": 2.7,
+   "seconds": 2.8,
    "rejected": {
     "not internship": 14
    }
@@ -343,12 +343,12 @@
    "kind": "workday",
    "company": "Intel",
    "ok": true,
-   "fetched": 152,
+   "fetched": 149,
    "matched": 2,
    "error": null,
-   "seconds": 14.5,
+   "seconds": 18.3,
    "rejected": {
-    "not internship": 139,
+    "not internship": 136,
     "excluded": 10,
     "no tech category": 1
    }
@@ -358,13 +358,13 @@
    "kind": "workday",
    "company": "Jabil",
    "ok": true,
-   "fetched": 170,
+   "fetched": 171,
    "matched": 3,
    "error": null,
-   "seconds": 27.3,
+   "seconds": 21.6,
    "rejected": {
+    "excluded": 10,
     "not internship": 156,
-    "excluded": 9,
     "no tech category": 2
    }
   },
@@ -376,7 +376,7 @@
    "fetched": 1,
    "matched": 0,
    "error": null,
-   "seconds": 2.3,
+   "seconds": 2.8,
    "rejected": {
     "not internship": 1
    }
@@ -389,7 +389,7 @@
    "fetched": 13,
    "matched": 0,
    "error": null,
-   "seconds": 2.1,
+   "seconds": 2.4,
    "rejected": {
     "not internship": 13
    }
@@ -399,12 +399,12 @@
    "kind": "workday",
    "company": "Micron",
    "ok": true,
-   "fetched": 90,
+   "fetched": 92,
    "matched": 1,
    "error": null,
-   "seconds": 5.1,
+   "seconds": 10.7,
    "rejected": {
-    "not internship": 85,
+    "not internship": 87,
     "no tech category": 1,
     "excluded": 3
    }
@@ -414,12 +414,12 @@
    "kind": "workday",
    "company": "Motorola Solutions",
    "ok": true,
-   "fetched": 83,
+   "fetched": 85,
    "matched": 7,
    "error": null,
-   "seconds": 17.2,
+   "seconds": 25.7,
    "rejected": {
-    "not internship": 73,
+    "not internship": 75,
     "excluded": 2,
     "no tech category": 1
    }
@@ -432,7 +432,7 @@
    "fetched": 62,
    "matched": 2,
    "error": null,
-   "seconds": 9.7,
+   "seconds": 11.6,
    "rejected": {
     "not internship": 55,
     "excluded": 5
@@ -443,12 +443,12 @@
    "kind": "workday",
    "company": "PayPal",
    "ok": true,
-   "fetched": 185,
+   "fetched": 189,
    "matched": 0,
    "error": null,
-   "seconds": 17.5,
+   "seconds": 20.7,
    "rejected": {
-    "not malaysia": 185
+    "not malaysia": 189
    }
   },
   {
@@ -456,13 +456,13 @@
    "kind": "workday",
    "company": "PwC",
    "ok": true,
-   "fetched": 168,
+   "fetched": 167,
    "matched": 3,
    "error": null,
-   "seconds": 34.8,
+   "seconds": 40.2,
    "rejected": {
-    "not internship": 138,
     "no tech category": 18,
+    "not internship": 137,
     "excluded": 9
    }
   },
@@ -474,7 +474,7 @@
    "fetched": 615,
    "matched": 0,
    "error": null,
-   "seconds": 35.9,
+   "seconds": 39.5,
    "rejected": {
     "not malaysia": 615
    }
@@ -484,12 +484,12 @@
    "kind": "workday",
    "company": "Shell",
    "ok": true,
-   "fetched": 5,
+   "fetched": 6,
    "matched": 0,
    "error": null,
-   "seconds": 3.4,
+   "seconds": 4.2,
    "rejected": {
-    "not internship": 4,
+    "not internship": 5,
     "excluded": 1
    }
   },
@@ -501,7 +501,7 @@
    "fetched": 1,
    "matched": 0,
    "error": null,
-   "seconds": 2.7,
+   "seconds": 2.8,
    "rejected": {
     "not internship": 1
    }
