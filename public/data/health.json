@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-17T00:59+00:00",
- "sources_ok": 13,
- "sources_failed": 26,
- "active_jobs": 37,
- "new_this_run": 0,
+ "checked_at": "2026-11-17T09:00+00:00",
+ "sources_ok": 12,
+ "sources_failed": 27,
+ "active_jobs": 38,
+ "new_this_run": 1,
  "sources": [
   {
    "source": "eightfold:Microsoft",
@@ -23,6 +23,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "HttpError: HTTP 404 for https://api.lever.co/v0/postings/grab?mode=json",
+   "seconds": null
+  },
+  {
+   "source": "linkedin",
+   "kind": "linkedin",
+   "company": null,
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=product&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
    "seconds": null
   },
   {
@@ -52,7 +62,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
+   "error": "HttpError: HTTP 429 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
    "seconds": null
   },
   {
@@ -102,7 +112,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
+   "error": "HttpError: HTTP 429 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
    "seconds": null
   },
   {
@@ -172,7 +182,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
+   "error": "HttpError: HTTP 429 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
    "seconds": null
   },
   {
@@ -273,7 +283,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.0,
+   "seconds": 0.8,
    "rejected": {}
   },
   {
@@ -281,12 +291,12 @@
    "kind": "greenhouse",
    "company": "Agoda",
    "ok": true,
-   "fetched": 349,
+   "fetched": 345,
    "matched": 0,
    "error": null,
-   "seconds": 0.7,
+   "seconds": 1.8,
    "rejected": {
-    "not malaysia": 324,
+    "not malaysia": 320,
     "not internship": 25
    }
   },
@@ -295,12 +305,12 @@
    "kind": "greenhouse",
    "company": "Thoughtworks",
    "ok": true,
-   "fetched": 41,
+   "fetched": 40,
    "matched": 0,
    "error": null,
-   "seconds": 0.3,
+   "seconds": 0.5,
    "rejected": {
-    "not malaysia": 41
+    "not malaysia": 40
    }
   },
   {
@@ -311,35 +321,21 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.7,
+   "seconds": 1.6,
    "rejected": {}
-  },
-  {
-   "source": "linkedin",
-   "kind": "linkedin",
-   "company": null,
-   "ok": true,
-   "fetched": 60,
-   "matched": 0,
-   "error": null,
-   "seconds": 3.0,
-   "rejected": {
-    "not an MNC": 44,
-    "not internship": 16
-   }
   },
   {
    "source": "oracle:Oracle",
    "kind": "oracle",
    "company": "Oracle",
    "ok": true,
-   "fetched": 376,
+   "fetched": 377,
    "matched": 1,
    "error": null,
-   "seconds": 18.5,
+   "seconds": 18.9,
    "rejected": {
-    "not malaysia": 368,
-    "not internship": 7
+    "not malaysia": 370,
+    "not internship": 6
    }
   },
   {
@@ -347,14 +343,14 @@
    "kind": "oracle",
    "company": "Texas Instruments",
    "ok": true,
-   "fetched": 340,
+   "fetched": 341,
    "matched": 1,
    "error": null,
-   "seconds": 15.3,
+   "seconds": 14.1,
    "rejected": {
-    "not malaysia": 323,
-    "not internship": 12,
-    "excluded": 4
+    "not malaysia": 324,
+    "not internship": 13,
+    "excluded": 3
    }
   },
   {
@@ -362,14 +358,14 @@
    "kind": "smartrecruiters",
    "company": "Bosch",
    "ok": true,
-   "fetched": 152,
+   "fetched": 151,
    "matched": 6,
    "error": null,
-   "seconds": 14.9,
+   "seconds": 15.6,
    "rejected": {
-    "not internship": 122,
-    "no tech category": 9,
-    "excluded": 15
+    "not internship": 120,
+    "excluded": 16,
+    "no tech category": 9
    }
   },
   {
@@ -377,12 +373,12 @@
    "kind": "smartrecruiters",
    "company": "Experian",
    "ok": true,
-   "fetched": 36,
+   "fetched": 37,
    "matched": 2,
    "error": null,
-   "seconds": 2.7,
+   "seconds": 2.6,
    "rejected": {
-    "not internship": 33,
+    "not internship": 34,
     "excluded": 1
    }
   },
@@ -394,7 +390,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 0.4,
    "rejected": {}
   },
   {
@@ -416,7 +412,7 @@
    "fetched": 120,
    "matched": 0,
    "error": null,
-   "seconds": 6.1,
+   "seconds": 6.6,
    "rejected": {
     "not internship": 119,
     "not malaysia": 1
@@ -430,7 +426,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 12.0,
+   "seconds": 9.9,
    "rejected": {}
   }
  ],
