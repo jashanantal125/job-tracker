@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-16T17:20+00:00",
+ "checked_at": "2026-11-17T00:59+00:00",
  "sources_ok": 13,
  "sources_failed": 26,
  "active_jobs": 37,
@@ -52,7 +52,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
+   "error": "HttpError: HTTP 422 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
    "seconds": null
   },
   {
@@ -102,7 +102,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
+   "error": "HttpError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
    "seconds": null
   },
   {
@@ -172,7 +172,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
+   "error": "HttpError: HTTP 422 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
    "seconds": null
   },
   {
@@ -273,7 +273,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 1.0,
    "rejected": {}
   },
   {
@@ -284,7 +284,7 @@
    "fetched": 349,
    "matched": 0,
    "error": null,
-   "seconds": 0.5,
+   "seconds": 0.7,
    "rejected": {
     "not malaysia": 324,
     "not internship": 25
@@ -298,7 +298,7 @@
    "fetched": 41,
    "matched": 0,
    "error": null,
-   "seconds": 0.1,
+   "seconds": 0.3,
    "rejected": {
     "not malaysia": 41
    }
@@ -311,7 +311,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.2,
+   "seconds": 1.7,
    "rejected": {}
   },
   {
@@ -322,10 +322,10 @@
    "fetched": 60,
    "matched": 0,
    "error": null,
-   "seconds": 3.3,
+   "seconds": 3.0,
    "rejected": {
-    "not an MNC": 43,
-    "not internship": 17
+    "not an MNC": 44,
+    "not internship": 16
    }
   },
   {
@@ -333,12 +333,12 @@
    "kind": "oracle",
    "company": "Oracle",
    "ok": true,
-   "fetched": 374,
+   "fetched": 376,
    "matched": 1,
    "error": null,
-   "seconds": 28.0,
+   "seconds": 18.5,
    "rejected": {
-    "not malaysia": 366,
+    "not malaysia": 368,
     "not internship": 7
    }
   },
@@ -347,12 +347,12 @@
    "kind": "oracle",
    "company": "Texas Instruments",
    "ok": true,
-   "fetched": 338,
+   "fetched": 340,
    "matched": 1,
    "error": null,
-   "seconds": 14.1,
+   "seconds": 15.3,
    "rejected": {
-    "not malaysia": 321,
+    "not malaysia": 323,
     "not internship": 12,
     "excluded": 4
    }
@@ -365,7 +365,7 @@
    "fetched": 152,
    "matched": 6,
    "error": null,
-   "seconds": 13.9,
+   "seconds": 14.9,
    "rejected": {
     "not internship": 122,
     "no tech category": 9,
@@ -380,7 +380,7 @@
    "fetched": 36,
    "matched": 2,
    "error": null,
-   "seconds": 2.5,
+   "seconds": 2.7,
    "rejected": {
     "not internship": 33,
     "excluded": 1
@@ -394,7 +394,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.4,
+   "seconds": 0.5,
    "rejected": {}
   },
   {
@@ -416,7 +416,7 @@
    "fetched": 120,
    "matched": 0,
    "error": null,
-   "seconds": 4.7,
+   "seconds": 6.1,
    "rejected": {
     "not internship": 119,
     "not malaysia": 1
@@ -430,7 +430,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 9.6,
+   "seconds": 12.0,
    "rejected": {}
   }
  ],
