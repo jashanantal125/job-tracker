@@ -1,7 +1,7 @@
 {
- "checked_at": "2026-11-22T20:59+00:00",
- "sources_ok": 15,
- "sources_failed": 24,
+ "checked_at": "2026-11-23T01:31+00:00",
+ "sources_ok": 13,
+ "sources_failed": 26,
  "active_jobs": 34,
  "new_this_run": 0,
  "sources": [
@@ -32,7 +32,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
+   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
    "seconds": null
   },
   {
@@ -62,7 +62,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
+   "error": "HttpError: HTTP 429 for https://amd.wd1.myworkdayjobs.com/wday/cxs/amd/External/jobs",
    "seconds": null
   },
   {
@@ -73,6 +73,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "HttpError: HTTP 429 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Broadcom",
+   "kind": "workday",
+   "company": "Broadcom",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 429 for https://broadcom.wd1.myworkdayjobs.com/wday/cxs/broadcom/External_Career/jobs",
    "seconds": null
   },
   {
@@ -102,7 +112,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
+   "error": "HttpError: HTTP 429 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
    "seconds": null
   },
   {
@@ -152,7 +162,17 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/Keysight/jobs",
+   "error": "HttpError: HTTP 429 for https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/Keysight/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Kyndryl",
+   "kind": "workday",
+   "company": "Kyndryl",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 429 for https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylProfessionalCareers/jobs",
    "seconds": null
   },
   {
@@ -162,7 +182,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
+   "error": "HttpError: HTTP 429 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
    "seconds": null
   },
   {
@@ -202,7 +222,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+   "error": "HttpError: HTTP 429 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
    "seconds": null
   },
   {
@@ -236,13 +256,13 @@
    "seconds": null
   },
   {
-   "source": "workday:Unilever",
+   "source": "workday:Shell",
    "kind": "workday",
-   "company": "Unilever",
+   "company": "Shell",
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://unilever.wd3.myworkdayjobs.com/wday/cxs/unilever/Unilever_Experienced_Professionals/jobs",
+   "error": "HttpError: HTTP 429 for https://shell.wd3.myworkdayjobs.com/wday/cxs/shell/ShellCareers/jobs",
    "seconds": null
   },
   {
@@ -253,7 +273,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.9,
+   "seconds": 0.7,
    "rejected": {}
   },
   {
@@ -264,7 +284,7 @@
    "fetched": 342,
    "matched": 0,
    "error": null,
-   "seconds": 0.8,
+   "seconds": 0.5,
    "rejected": {
     "not malaysia": 316,
     "not internship": 26
@@ -278,7 +298,7 @@
    "fetched": 31,
    "matched": 0,
    "error": null,
-   "seconds": 0.3,
+   "seconds": 0.1,
    "rejected": {
     "not malaysia": 31
    }
@@ -291,7 +311,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.8,
+   "seconds": 1.1,
    "rejected": {}
   },
   {
@@ -299,12 +319,12 @@
    "kind": "oracle",
    "company": "Oracle",
    "ok": true,
-   "fetched": 365,
+   "fetched": 366,
    "matched": 1,
    "error": null,
    "seconds": 18.3,
    "rejected": {
-    "not malaysia": 359,
+    "not malaysia": 360,
     "not internship": 5
    }
   },
@@ -316,7 +336,7 @@
    "fetched": 349,
    "matched": 1,
    "error": null,
-   "seconds": 14.6,
+   "seconds": 15.3,
    "rejected": {
     "excluded": 3,
     "not internship": 10,
@@ -331,7 +351,7 @@
    "fetched": 149,
    "matched": 5,
    "error": null,
-   "seconds": 15.6,
+   "seconds": 13.7,
    "rejected": {
     "not internship": 120,
     "excluded": 16,
@@ -346,7 +366,7 @@
    "fetched": 37,
    "matched": 2,
    "error": null,
-   "seconds": 3.0,
+   "seconds": 2.7,
    "rejected": {
     "not internship": 34,
     "excluded": 1
@@ -382,7 +402,7 @@
    "fetched": 120,
    "matched": 0,
    "error": null,
-   "seconds": 9.2,
+   "seconds": 7.2,
    "rejected": {
     "not internship": 119,
     "not malaysia": 1
@@ -396,47 +416,20 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 11.0,
+   "seconds": 10.5,
    "rejected": {}
   },
   {
-   "source": "workday:Broadcom",
+   "source": "workday:Unilever",
    "kind": "workday",
-   "company": "Broadcom",
+   "company": "Unilever",
    "ok": true,
-   "fetched": 26,
+   "fetched": 4,
    "matched": 0,
    "error": null,
-   "seconds": 1.0,
+   "seconds": 2.4,
    "rejected": {
-    "not internship": 26
-   }
-  },
-  {
-   "source": "workday:Kyndryl",
-   "kind": "workday",
-   "company": "Kyndryl",
-   "ok": true,
-   "fetched": 3,
-   "matched": 0,
-   "error": null,
-   "seconds": 2.1,
-   "rejected": {
-    "not internship": 3
-   }
-  },
-  {
-   "source": "workday:Shell",
-   "kind": "workday",
-   "company": "Shell",
-   "ok": true,
-   "fetched": 5,
-   "matched": 0,
-   "error": null,
-   "seconds": 3.3,
-   "rejected": {
-    "not internship": 4,
-    "excluded": 1
+    "not internship": 4
    }
   }
  ],
