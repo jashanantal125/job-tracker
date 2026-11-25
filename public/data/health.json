@@ -1,7 +1,7 @@
 {
- "checked_at": "2026-11-25T10:21+00:00",
- "sources_ok": 15,
- "sources_failed": 24,
+ "checked_at": "2026-11-25T20:05+00:00",
+ "sources_ok": 13,
+ "sources_failed": 26,
  "active_jobs": 31,
  "new_this_run": 0,
  "sources": [
@@ -42,7 +42,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
+   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=product&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
    "seconds": null
   },
   {
@@ -152,7 +152,17 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 422 for https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/Keysight/jobs",
+   "error": "HttpError: HTTP 429 for https://keysight.wd5.myworkdayjobs.com/wday/cxs/keysight/Keysight/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Kyndryl",
+   "kind": "workday",
+   "company": "Kyndryl",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 429 for https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylProfessionalCareers/jobs",
    "seconds": null
   },
   {
@@ -163,6 +173,16 @@
    "fetched": 0,
    "matched": 0,
    "error": "HttpError: HTTP 422 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
+   "seconds": null
+  },
+  {
+   "source": "workday:Mastercard",
+   "kind": "workday",
+   "company": "Mastercard",
+   "ok": false,
+   "fetched": 0,
+   "matched": 0,
+   "error": "HttpError: HTTP 429 for https://mastercard.wd1.myworkdayjobs.com/wday/cxs/mastercard/CorporateCareers/jobs",
    "seconds": null
   },
   {
@@ -192,7 +212,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
+   "error": "HttpError: HTTP 422 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
    "seconds": null
   },
   {
@@ -253,7 +273,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.3,
+   "seconds": 0.6,
    "rejected": {}
   },
   {
@@ -261,12 +281,12 @@
    "kind": "greenhouse",
    "company": "Agoda",
    "ok": true,
-   "fetched": 338,
+   "fetched": 336,
    "matched": 0,
    "error": null,
    "seconds": 0.6,
    "rejected": {
-    "not malaysia": 312,
+    "not malaysia": 310,
     "not internship": 26
    }
   },
@@ -278,7 +298,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 1.7,
+   "seconds": 1.0,
    "rejected": {}
   },
   {
@@ -289,7 +309,7 @@
    "fetched": 376,
    "matched": 1,
    "error": null,
-   "seconds": 20.6,
+   "seconds": 20.8,
    "rejected": {
     "not malaysia": 371,
     "not internship": 4
@@ -300,13 +320,13 @@
    "kind": "oracle",
    "company": "Texas Instruments",
    "ok": true,
-   "fetched": 343,
+   "fetched": 346,
    "matched": 1,
    "error": null,
-   "seconds": 13.3,
+   "seconds": 14.4,
    "rejected": {
-    "not internship": 11,
-    "not malaysia": 328,
+    "not malaysia": 330,
+    "not internship": 12,
     "excluded": 3
    }
   },
@@ -318,7 +338,7 @@
    "fetched": 152,
    "matched": 5,
    "error": null,
-   "seconds": 15.1,
+   "seconds": 16.2,
    "rejected": {
     "not internship": 121,
     "excluded": 17,
@@ -333,7 +353,7 @@
    "fetched": 39,
    "matched": 2,
    "error": null,
-   "seconds": 2.7,
+   "seconds": 2.9,
    "rejected": {
     "not internship": 36,
     "excluded": 1
@@ -366,12 +386,12 @@
    "kind": "successfactors",
    "company": "EY",
    "ok": true,
-   "fetched": 120,
+   "fetched": 118,
    "matched": 0,
    "error": null,
-   "seconds": 6.0,
+   "seconds": 7.8,
    "rejected": {
-    "not internship": 119,
+    "not internship": 117,
     "not malaysia": 1
    }
   },
@@ -383,7 +403,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 9.9,
+   "seconds": 7.6,
    "rejected": {}
   },
   {
@@ -408,32 +428,6 @@
    "seconds": 0.7,
    "rejected": {
     "not internship": 20
-   }
-  },
-  {
-   "source": "workday:Kyndryl",
-   "kind": "workday",
-   "company": "Kyndryl",
-   "ok": true,
-   "fetched": 1,
-   "matched": 0,
-   "error": null,
-   "seconds": 2.3,
-   "rejected": {
-    "not internship": 1
-   }
-  },
-  {
-   "source": "workday:Mastercard",
-   "kind": "workday",
-   "company": "Mastercard",
-   "ok": true,
-   "fetched": 10,
-   "matched": 0,
-   "error": null,
-   "seconds": 3.4,
-   "rejected": {
-    "not internship": 10
    }
   }
  ],
