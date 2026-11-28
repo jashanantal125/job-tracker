@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-28T04:12+00:00",
- "sources_ok": 13,
- "sources_failed": 26,
- "active_jobs": 32,
- "new_this_run": 0,
+ "checked_at": "2026-11-28T13:29+00:00",
+ "sources_ok": 28,
+ "sources_failed": 11,
+ "active_jobs": 31,
+ "new_this_run": 1,
  "sources": [
   {
    "source": "eightfold:Microsoft",
@@ -52,17 +52,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
-   "seconds": null
-  },
-  {
-   "source": "workday:AIA",
-   "kind": "workday",
-   "company": "AIA",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://aia.wd3.myworkdayjobs.com/wday/cxs/aia/External/jobs",
+   "error": "HttpError: HTTP 429 for https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=software&location=Malaysia&geoId=106808692&f_JT=I&f_TPR=r604800&start=0",
    "seconds": null
   },
   {
@@ -76,36 +66,6 @@
    "seconds": null
   },
   {
-   "source": "workday:Adobe",
-   "kind": "workday",
-   "company": "Adobe",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Citi",
-   "kind": "workday",
-   "company": "Citi",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:DXC Technology",
-   "kind": "workday",
-   "company": "DXC Technology",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://dxctechnology.wd1.myworkdayjobs.com/wday/cxs/dxctechnology/DXCJobs/jobs",
-   "seconds": null
-  },
-  {
    "source": "workday:Dell Technologies",
    "kind": "workday",
    "company": "Dell Technologies",
@@ -113,46 +73,6 @@
    "fetched": 0,
    "matched": 0,
    "error": "HttpError: HTTP 422 for https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:HP",
-   "kind": "workday",
-   "company": "HP",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://hp.wd5.myworkdayjobs.com/wday/cxs/hp/ExternalCareerSite/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Hewlett Packard Enterprise",
-   "kind": "workday",
-   "company": "Hewlett Packard Enterprise",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Intel",
-   "kind": "workday",
-   "company": "Intel",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Jabil",
-   "kind": "workday",
-   "company": "Jabil",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs",
    "seconds": null
   },
   {
@@ -166,43 +86,13 @@
    "seconds": null
   },
   {
-   "source": "workday:Kyndryl",
-   "kind": "workday",
-   "company": "Kyndryl",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylProfessionalCareers/jobs",
-   "seconds": null
-  },
-  {
    "source": "workday:Lam Research",
    "kind": "workday",
    "company": "Lam Research",
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Micron",
-   "kind": "workday",
-   "company": "Micron",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://micron.wd1.myworkdayjobs.com/wday/cxs/micron/External/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Motorola Solutions",
-   "kind": "workday",
-   "company": "Motorola Solutions",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs",
+   "error": "HttpError: HTTP 422 for https://lamresearch.wd1.myworkdayjobs.com/wday/cxs/lamresearch/LAM/jobs",
    "seconds": null
   },
   {
@@ -212,17 +102,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:PayPal",
-   "kind": "workday",
-   "company": "PayPal",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://paypal.wd1.myworkdayjobs.com/wday/cxs/paypal/jobs/jobs",
+   "error": "HttpError: HTTP 422 for https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/jobs",
    "seconds": null
   },
   {
@@ -232,37 +112,7 @@
    "ok": false,
    "fetched": 0,
    "matched": 0,
-   "error": "HttpError: HTTP 429 for https://pwc.wd3.myworkdayjobs.com/wday/cxs/pwc/Global_Campus_Careers/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Salesforce",
-   "kind": "workday",
-   "company": "Salesforce",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Career_Site/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Shell",
-   "kind": "workday",
-   "company": "Shell",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://shell.wd3.myworkdayjobs.com/wday/cxs/shell/ShellCareers/jobs",
-   "seconds": null
-  },
-  {
-   "source": "workday:Unilever",
-   "kind": "workday",
-   "company": "Unilever",
-   "ok": false,
-   "fetched": 0,
-   "matched": 0,
-   "error": "HttpError: HTTP 429 for https://unilever.wd3.myworkdayjobs.com/wday/cxs/unilever/Unilever_Experienced_Professionals/jobs",
+   "error": "DeadlineExceeded: run deadline reached",
    "seconds": null
   },
   {
@@ -273,7 +123,7 @@
    "fetched": 1,
    "matched": 0,
    "error": null,
-   "seconds": 1.1,
+   "seconds": 0.8,
    "rejected": {
     "excluded": 1
    }
@@ -286,7 +136,7 @@
    "fetched": 328,
    "matched": 0,
    "error": null,
-   "seconds": 0.6,
+   "seconds": 0.5,
    "rejected": {
     "not malaysia": 304,
     "not internship": 24
@@ -300,7 +150,7 @@
    "fetched": 383,
    "matched": 1,
    "error": null,
-   "seconds": 19.0,
+   "seconds": 18.2,
    "rejected": {
     "not malaysia": 379,
     "not internship": 3
@@ -314,7 +164,7 @@
    "fetched": 350,
    "matched": 1,
    "error": null,
-   "seconds": 16.5,
+   "seconds": 17.0,
    "rejected": {
     "not malaysia": 336,
     "not internship": 10,
@@ -329,7 +179,7 @@
    "fetched": 156,
    "matched": 5,
    "error": null,
-   "seconds": 8.9,
+   "seconds": 8.7,
    "rejected": {
     "no tech category": 10,
     "not internship": 122,
@@ -358,7 +208,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.2,
+   "seconds": 0.3,
    "rejected": {}
   },
   {
@@ -369,7 +219,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 0.2,
+   "seconds": 0.3,
    "rejected": {}
   },
   {
@@ -380,7 +230,7 @@
    "fetched": 119,
    "matched": 0,
    "error": null,
-   "seconds": 5.9,
+   "seconds": 6.3,
    "rejected": {
     "not internship": 118,
     "not malaysia": 1
@@ -394,7 +244,7 @@
    "fetched": 0,
    "matched": 0,
    "error": null,
-   "seconds": 9.2,
+   "seconds": 10.9,
    "rejected": {}
   },
   {
@@ -409,6 +259,34 @@
    "rejected": {}
   },
   {
+   "source": "workday:AIA",
+   "kind": "workday",
+   "company": "AIA",
+   "ok": true,
+   "fetched": 218,
+   "matched": 8,
+   "error": null,
+   "seconds": 41.4,
+   "rejected": {
+    "not internship": 196,
+    "no tech category": 8,
+    "excluded": 6
+   }
+  },
+  {
+   "source": "workday:Adobe",
+   "kind": "workday",
+   "company": "Adobe",
+   "ok": true,
+   "fetched": 136,
+   "matched": 0,
+   "error": null,
+   "seconds": 41.1,
+   "rejected": {
+    "not malaysia": 136
+   }
+  },
+  {
    "source": "workday:Broadcom",
    "kind": "workday",
    "company": "Broadcom",
@@ -416,10 +294,106 @@
    "fetched": 17,
    "matched": 0,
    "error": null,
-   "seconds": 0.7,
+   "seconds": 0.6,
    "rejected": {
     "not internship": 17
    }
+  },
+  {
+   "source": "workday:Citi",
+   "kind": "workday",
+   "company": "Citi",
+   "ok": true,
+   "fetched": 113,
+   "matched": 0,
+   "error": null,
+   "seconds": 8.6,
+   "rejected": {
+    "not internship": 113
+   }
+  },
+  {
+   "source": "workday:DXC Technology",
+   "kind": "workday",
+   "company": "DXC Technology",
+   "ok": true,
+   "fetched": 47,
+   "matched": 8,
+   "error": null,
+   "seconds": 17.6,
+   "rejected": {
+    "not internship": 38,
+    "no tech category": 1
+   }
+  },
+  {
+   "source": "workday:HP",
+   "kind": "workday",
+   "company": "HP",
+   "ok": true,
+   "fetched": 40,
+   "matched": 1,
+   "error": null,
+   "seconds": 3.9,
+   "rejected": {
+    "not internship": 37,
+    "excluded": 1,
+    "no tech category": 1
+   }
+  },
+  {
+   "source": "workday:Hewlett Packard Enterprise",
+   "kind": "workday",
+   "company": "Hewlett Packard Enterprise",
+   "ok": true,
+   "fetched": 22,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.9,
+   "rejected": {
+    "not internship": 22
+   }
+  },
+  {
+   "source": "workday:Intel",
+   "kind": "workday",
+   "company": "Intel",
+   "ok": true,
+   "fetched": 156,
+   "matched": 1,
+   "error": null,
+   "seconds": 40.9,
+   "rejected": {
+    "not internship": 145,
+    "excluded": 6,
+    "no tech category": 4
+   }
+  },
+  {
+   "source": "workday:Jabil",
+   "kind": "workday",
+   "company": "Jabil",
+   "ok": true,
+   "fetched": 174,
+   "matched": 3,
+   "error": null,
+   "seconds": 41.5,
+   "rejected": {
+    "not internship": 157,
+    "excluded": 11,
+    "no tech category": 3
+   }
+  },
+  {
+   "source": "workday:Kyndryl",
+   "kind": "workday",
+   "company": "Kyndryl",
+   "ok": true,
+   "fetched": 0,
+   "matched": 0,
+   "error": null,
+   "seconds": 3.5,
+   "rejected": {}
   },
   {
    "source": "workday:Mastercard",
@@ -429,9 +403,93 @@
    "fetched": 10,
    "matched": 0,
    "error": null,
-   "seconds": 3.3,
+   "seconds": 1.9,
    "rejected": {
     "not internship": 10
+   }
+  },
+  {
+   "source": "workday:Micron",
+   "kind": "workday",
+   "company": "Micron",
+   "ok": true,
+   "fetched": 96,
+   "matched": 0,
+   "error": null,
+   "seconds": 4.6,
+   "rejected": {
+    "not internship": 90,
+    "no tech category": 2,
+    "excluded": 4
+   }
+  },
+  {
+   "source": "workday:Motorola Solutions",
+   "kind": "workday",
+   "company": "Motorola Solutions",
+   "ok": true,
+   "fetched": 95,
+   "matched": 6,
+   "error": null,
+   "seconds": 41.0,
+   "rejected": {
+    "not internship": 85,
+    "excluded": 3,
+    "no tech category": 1
+   }
+  },
+  {
+   "source": "workday:PayPal",
+   "kind": "workday",
+   "company": "PayPal",
+   "ok": true,
+   "fetched": 218,
+   "matched": 0,
+   "error": null,
+   "seconds": 39.6,
+   "rejected": {
+    "not malaysia": 218
+   }
+  },
+  {
+   "source": "workday:Salesforce",
+   "kind": "workday",
+   "company": "Salesforce",
+   "ok": true,
+   "fetched": 612,
+   "matched": 0,
+   "error": null,
+   "seconds": 41.5,
+   "rejected": {
+    "not malaysia": 612
+   }
+  },
+  {
+   "source": "workday:Shell",
+   "kind": "workday",
+   "company": "Shell",
+   "ok": true,
+   "fetched": 8,
+   "matched": 0,
+   "error": null,
+   "seconds": 9.2,
+   "rejected": {
+    "not internship": 6,
+    "no tech category": 1,
+    "excluded": 1
+   }
+  },
+  {
+   "source": "workday:Unilever",
+   "kind": "workday",
+   "company": "Unilever",
+   "ok": true,
+   "fetched": 6,
+   "matched": 0,
+   "error": null,
+   "seconds": 2.5,
+   "rejected": {
+    "not internship": 6
    }
   }
  ],
